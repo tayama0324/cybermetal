@@ -1,26 +1,17 @@
-html,
+html {
+  background-color: #999;
+}
 body {
-  padding: 0;
+  background-color: #fff;
+  width: 182mm;
+  height: 257mm;
+  padding: 20mm;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow: hidden;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@page {
+  size: B5;
 }

@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CyberMetalChimpira
 
-## Getting Started
+Welcome to underground...
 
-First, run the development server:
+## How to preview
 
-```bash
-npm run dev
-# or
+```zsh
+yarn install
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+起動したら `http://localhost:3000/{authorName}/{pageCount}` で表示できます
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## How to edit
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- 他のページを参考に `/pages/{authorName}/{pageCount}.tsx` を作成してください
+- 基本的には `<p>` と後述する共通コンポーネントだけ使ってください
+- 必要であれば自由にカスタマイズしても構いません
+- B5サイズでの作成を想定しています
+  - 上下左右20mmの余白があります
+  - 余白を超えそうな場合は新規ページを作成してください
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Components
 
-## Learn More
+共通化したコンポーネントです、よしなに使ってください
 
-To learn more about Next.js, take a look at the following resources:
+### Title
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ページのタイトルに使ってください
+- twitter と webiste は省略可能です
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+import {Title} from '../../components/Title'
+<Title
+    title={'秋葉原に10年ぐらい住んでみた'}
+    description={'みんな大好き秋葉原'}
+    author={'なのくろ'}
+    twitter={'@nanocloudx'}
+    website={'https://wwww.dev'}
+/>
+```
 
-## Deploy on Vercel
+### Image
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 画像を埋め込みたいときに使ってください
+- 画像ファイルは `/public/{authorName}/` に置いてください
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+import {Image} from '../../components/Image'
+<Image
+    href={'/nanocloudx/image.webp'}
+    description={'懐かしき景色'}
+/>
+```

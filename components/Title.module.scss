@@ -1,0 +1,18 @@
+.main {
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 0.2rem solid #000;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.description {
+  margin-bottom: 0.5rem;
+}
+.author {
+  > *:not(:last-child)::after {
+    padding: 0 3mm;
+    content: "/";
+  }
+}
