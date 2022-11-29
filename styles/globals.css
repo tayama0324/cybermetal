@@ -17,10 +17,16 @@ body {
 h2 {
   font-size: 1.3rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin: 1.5rem 0 0.5rem;
+}
+h2:first-child {
+  margin-top: 0;
 }
 p {
-  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  text-align: justify;
+  text-justify: inter-ideograph;
 }
 strong {
   display: inline;
@@ -30,4 +36,5 @@ small {
   display: inline-block;
   font-size: 0.8rem;
   font-style: italic;
+  margin-bottom: 0.4rem;
 }
