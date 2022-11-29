@@ -6,8 +6,9 @@ export default function Page() {
     <div>
       <Title
         title={'秋葉原に10年ぐらい住んでみた'}
-        description={'人生って難しいよね・・・'}
+        description={'にーこにっこどーが！にーこにっこどーが！'}
         author={'なのくろ'}
+        image={'/nanocloudx/author.jpeg'}
         twitter={'@nanocloudx'}
         website={'https://wwww.dev'}
       />

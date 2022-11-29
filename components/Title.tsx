@@ -8,6 +8,7 @@ type Props = {
   title: string
   description: string
   author: string
+  image: string
   twitter?: string
   website?: string
 }
@@ -17,11 +18,12 @@ export const Title: React.FC<Props> = (props) => {
     <div className={s.main}>
       <h1 className={s.title}>{props.title}</h1>
       <p className={s.description}>{props.description}</p>
-      <p className={s.author}>
-        <span className={s.authorName}><FontAwesomeIcon icon={faUser} fixedWidth />{props.author}</span>
-        {props.twitter && (<span className={s.authorTwitter}><FontAwesomeIcon icon={faTwitter} fixedWidth />{props.twitter}</span>)}
-        {props.website && (<span className={s.authorWebsite}><FontAwesomeIcon icon={faGlobe} fixedWidth />{props.website}</span>)}
-      </p>
+      <div className={s.author}>
+        <img className={s.authorImage} src={props.image} />
+        <span className={s.authorName}>{props.author}</span>
+        {props.twitter && (<p className={s.authorTwitter}><FontAwesomeIcon icon={faTwitter} fixedWidth />{props.twitter}</p>)}
+        {props.website && (<p className={s.authorWebsite}><FontAwesomeIcon icon={faGlobe} fixedWidth />{props.website}</p>)}
+      </div>
     </div>
   )
 }

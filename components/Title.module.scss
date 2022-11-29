@@ -1,6 +1,6 @@
 .main {
   margin-bottom: 0.8rem;
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.7rem;
   border-bottom: 0.2rem solid #000;
 }
 .title {
@@ -11,6 +11,15 @@
   margin-bottom: 0.5rem;
 }
 .author {
+  display: flex;
+  align-items: center;
+  p {
+    margin-bottom: 0;
+  }
+  .authorImage {
+    width: 10mm;
+    margin-right: 0.5rem;
+  }
   > *:not(:last-child)::after {
     padding: 0 3mm;
     content: "/";

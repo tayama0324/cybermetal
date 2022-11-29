@@ -54,6 +54,7 @@ import {Title} from '../../components/Title'
 
 - 画像を埋め込みたいときに使ってください
 - 画像ファイルは `/public/{authorName}/` に置いてください
+- CSSでグレースケール化されます
 - description は省略可能です
 
 ```
