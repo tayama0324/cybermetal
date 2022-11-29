@@ -1,3 +1,6 @@
+@page {
+  size: B5;
+}
 html {
   background-color: #999;
 }
@@ -11,7 +14,20 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   overflow: hidden;
 }
-
-@page {
-  size: B5;
+h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+p {
+  margin-bottom: 0.5rem;
+}
+strong {
+  display: inline;
+  font-weight: bold;
+}
+small {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-style: italic;
 }

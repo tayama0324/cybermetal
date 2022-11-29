@@ -13,7 +13,12 @@ export default function Page() {
       />
       <p>Welcome to underground...</p>
       <Image href={'/nanocloudx/farewell-akihabara.webp'} description={'懐かしき景色'} />
-      <p>Welcome to underground...</p>
+      <h2>ポラーノの広場</h2>
+      <p>
+        あの<strong>イーハトーヴォ</strong>のなんちゃらかんちゃら
+      </p>
+      <p>あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。</p>
+      <small>イーハトーヴォってなんやねん</small>
     </div>
   )
 }

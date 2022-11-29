@@ -26,6 +26,7 @@ yarn dev
 
 - `<h2>` 見出しはこれ
 - `<p>` 文章はこれ
+  - (`<br />`での改行は非推奨)
 - `<strong>` 太字にしたい場合はこれ
 - `<small>` 注釈にしたい場合はこれ
 
@@ -53,6 +54,7 @@ import {Title} from '../../components/Title'
 
 - 画像を埋め込みたいときに使ってください
 - 画像ファイルは `/public/{authorName}/` に置いてください
+- description は省略可能です
 
 ```
 import {Image} from '../../components/Image'
