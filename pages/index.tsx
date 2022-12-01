@@ -15,6 +15,13 @@ export default function Page() {
       <h2>kusano_k</h2>
       <ul style={{display: 'flex'}}>
         <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/1'}>page1</Link></li>
+        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/2'}>page2</Link></li>
+        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/3'}>page3</Link></li>
+        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/4'}>page4</Link></li>
+        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/5'}>page5</Link></li>
+        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/6'}>page6</Link></li>
+        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/7'}>page7</Link></li>
+        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/8'}>page8</Link></li>
       </ul>
       <h2>かえで@office_acer</h2>
       <ul style={{display: 'flex'}}>
