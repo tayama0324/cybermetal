@@ -8,6 +8,7 @@ export default function Page() {
         description={'きらファン2部の話'}
         author={'冬椿'}
         image={'/fuyutsubaki/author.png'}
+        twitter={'@fuyutsubaki'}
       />
       <p>
         It works!
