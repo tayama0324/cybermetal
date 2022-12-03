@@ -25,6 +25,11 @@ export default function Page() {
         author={'kusano_k'}
       />
       <Mokuji
+        title={'田舎の一軒家に住み始めた話'}
+        description={'田舎の一軒家に住んだ方がQOLが上がる人種について'}
+        author={'でら'}
+      />
+      <Mokuji
         title={'田舎に引っ越したので自動車を買った話'}
         description={'自動車を買ったときにあったあれこれの覚書'}
         author={'かえで@office_acer'}
@@ -55,13 +60,8 @@ export default function Page() {
         author={'daichiro.eth'}
       />
       <Mokuji
-        title={'秋葉原に10年ぐらい住んでみた'}
-        description={'僕の思い出'}
-        author={'なのくろ'}
-      />
-      <Mokuji
-        title={'有明に住んでみた'}
-        description={'フラグ回収'}
+        title={'秋葉原に10年ぐらい住んでみた+有明に住んでみた'}
+        description={'人生って難しい'}
         author={'なのくろ'}
       />
     </div>

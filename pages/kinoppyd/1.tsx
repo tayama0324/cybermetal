@@ -5,8 +5,8 @@ export default function Page() {
   return (
     <div>
       <Title
-        title={'未定'}
-        description={'ウイスキーに興味を持った'}
+        title={'お酒を蒸留するということ'}
+        description={'お酒を蒸留する方法や効果はいろいろあるんだねって話'}
         author={'kinoppyd'}
         image={'/kinoppyd/author.jpeg'}
         twitter={'@GhostBrain'}
