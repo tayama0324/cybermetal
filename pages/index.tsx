@@ -1,62 +1,69 @@
-import Link from 'next/link'
+import {Mokuji} from '../components/Mokuji'
 
 export default function Page() {
   return (
-    <main>
-      <h1>サイバーメタルチンピラ</h1>
-      <h2>kinoppyd</h2>
-      <ul style={{display: 'flex'}}>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/kinoppyd/1'}>page1</Link></li>
-      </ul>
-      <h2>tayama0324</h2>
-      <ul style={{display: 'flex'}}>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/tayama/1'}>page1</Link></li>
-      </ul>
-      <h2>kusano_k</h2>
-      <ul style={{display: 'flex'}}>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/1'}>page1</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/2'}>page2</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/3'}>page3</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/4'}>page4</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/5'}>page5</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/6'}>page6</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/7'}>page7</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/kusano/8'}>page8</Link></li>
-      </ul>
-      <h2>かえで@office_acer</h2>
-      <ul style={{display: 'flex'}}>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/sekiyasu/1'}>page1</Link></li>
-      </ul>
-      <h2>冬椿</h2>
-      <ul style={{display: 'flex'}}>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/fuyutsubaki/1'}>page1</Link></li>
-      </ul>
-      <h2>物入れ狂戦士</h2>
-      <ul style={{display: 'flex'}}>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/pokeba/1'}>page1</Link></li>
-      </ul>
-      <h2>おめが</h2>
-      <ul style={{display: 'flex'}}>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/omega/1'}>page1</Link></li>
-      </ul>
-      <h2>ながいたん</h2>
-      <ul style={{display: 'flex'}}>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/nagaitan/1'}>page1</Link></li>
-      </ul>
-      <h2>daichiro.eth</h2>
-      <ul style={{display: 'flex'}}>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/daichiro/1'}>page1</Link></li>
-      </ul>
-      <h2>なのくろ</h2>
-      <ul style={{display: 'flex'}}>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/nanocloudx/1'}>page1</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/nanocloudx/2'}>page2</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/nanocloudx/3'}>page3</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/nanocloudx/4'}>page4</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/nanocloudx/5'}>page5</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/nanocloudx/6'}>page6</Link></li>
-        <li style={{padding: '0 0.5rem'}}><Link href={'/nanocloudx/7'}>page7</Link></li>
-      </ul>
-    </main>
+    <div>
+      <h1 style={{marginBottom: '1.5rem', fontSize: '1.6rem'}}>目次</h1>
+      <Mokuji
+        title={'サイバーメタルチンピラとは何か'}
+        description={'AIに聞いてみた'}
+        author={'OpenAI ChatGPT'}
+      />
+      <Mokuji
+        title={'未定'}
+        description={'未定'}
+        author={'kinoppyd'}
+      />
+      <Mokuji
+        title={'なぜ人は575が好きなのか'}
+        description={'俳句のリズムを心地よく感じる理由を言語・音楽の見地から説明します'}
+        author={'tayama0324'}
+      />
+      <Mokuji
+        title={'値段差10倍のメガネを買った話'}
+        description={'タイトル通り'}
+        author={'kusano_k'}
+      />
+      <Mokuji
+        title={'田舎に引っ越したので自動車を買った話'}
+        description={'自動車を買ったときにあったあれこれの覚書'}
+        author={'かえで@office_acer'}
+      />
+      <Mokuji
+        title={'未定'}
+        description={'きらファン2部の話'}
+        author={'冬椿'}
+      />
+      <Mokuji
+        title={'スリーカウント転職ルール'}
+        description={'3回灯がともったらプレインズウォークする'}
+        author={'物入れ狂戦士'}
+      />
+      <Mokuji
+        title={'未定'}
+        description={'早くない自転車競技'}
+        author={'おめが'}
+      />
+      <Mokuji
+        title={'未定'}
+        description={'未定'}
+        author={'ながいたん'}
+      />
+      <Mokuji
+        title={'未定'}
+        description={'NFT'}
+        author={'daichiro.eth'}
+      />
+      <Mokuji
+        title={'秋葉原に10年ぐらい住んでみた'}
+        description={'僕の思い出'}
+        author={'なのくろ'}
+      />
+      <Mokuji
+        title={'有明に住んでみた'}
+        description={'フラグ回収'}
+        author={'なのくろ'}
+      />
+    </div>
   )
 }
