@@ -5,66 +5,81 @@ export default function Page() {
     <div>
       <h1 style={{marginBottom: '1.2rem', fontSize: '1.5rem'}}>目次</h1>
       <Mokuji
+        page={0}
         title={'サイバーメタルチンピラとは何か'}
         description={'AIに聞いてみた'}
         author={'OpenAI ChatGPT'}
       />
       <Mokuji
-        title={'未定'}
-        description={'未定'}
+        page={0}
+        title={'お酒を蒸留するということ'}
+        description={'お酒を蒸留する方法や効果はいろいろあるんだねって話'}
         author={'kinoppyd'}
       />
       <Mokuji
+        page={0}
         title={'なぜ人は575が好きなのか'}
         description={'俳句のリズムを心地よく感じる理由を言語・音楽の見地から説明します'}
         author={'tayama0324'}
       />
       <Mokuji
+        page={0}
         title={'値段差10倍のメガネを買った話'}
         description={'タイトル通り'}
         author={'kusano_k'}
       />
       <Mokuji
-        title={'田舎の一軒家に住み始めた話'}
-        description={'田舎の一軒家に住んだ方がQOLが上がる人種について'}
-        author={'でら'}
-      />
-      <Mokuji
-        title={'田舎に引っ越したので自動車を買った話'}
+        page={0}
+        title={'田舎に引越したので自動車を買った'}
         description={'自動車を買ったときにあったあれこれの覚書'}
         author={'かえで@office_acer'}
       />
       <Mokuji
+        page={0}
+        title={'田舎の一軒家に住み始めた'}
+        description={'田舎の一軒家に住んだ方がQOLが上がる人種について'}
+        author={'でら'}
+      />
+      <Mokuji
+        page={0}
         title={'未定'}
         description={'きらファン2部の話'}
         author={'冬椿'}
       />
       <Mokuji
+        page={0}
         title={'スリーカウント転職ルール'}
         description={'3回灯がともったらプレインズウォークする'}
         author={'物入れ狂戦士'}
       />
       <Mokuji
+        page={0}
         title={'未定'}
         description={'早くない自転車競技'}
         author={'おめが'}
       />
       <Mokuji
-        title={'未定'}
-        description={'未定'}
+        page={0}
+        title={'繁殖する技術'}
+        description={'子どもをつくってみた話'}
         author={'ながいたん'}
       />
       <Mokuji
+        page={0}
         title={'未定'}
         description={'NFT'}
         author={'daichiro.eth'}
       />
       <Mokuji
+        page={0}
         title={'秋葉原に10年ぐらい住んでみた+有明に住んでみた'}
         description={'オタクの聖地に住んでみよう'}
         author={'なのくろ'}
       />
-      <p style={{fontSize: '1rem'}}>あとがき</p>
+      <Mokuji
+        page={99}
+        description={'あとがき'}
+      />
     </div>
   )
 }

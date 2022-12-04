@@ -5,8 +5,8 @@ export default function Page() {
   return (
     <div>
       <Title
-        title={'未定'}
-        description={'未定'}
+        title={'繁殖する技術'}
+        description={'子どもをつくってみた話'}
         author={'ながいたん'}
         image={'/nagaitan/author.jpeg'}
       />

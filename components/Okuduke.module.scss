@@ -1,0 +1,13 @@
+.main {
+  position: absolute;
+  bottom: 20mm;
+  dl > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+  }
+  dt {
+    width: 50px;
+  }
+}
