@@ -5,7 +5,7 @@ export default function Page() {
     <div>
       <Title
         title={'サイバーメタルチンピラとは何か'}
-        description={'AIに聞いてみた'}
+        description={'チャットAIに聞いてみた'}
         author={'OpenAI ChatGPT'}
         image={'/chatgpt.png'}
         website={'https://chat.openai.com'}
@@ -14,7 +14,7 @@ export default function Page() {
         「サイバーメタルチンピラって何？」
       </small>
       <p>
-        サイバーメタルチンピラは、フィクションのキャラクターのようです。私たちは、現実世界における情報しかお答えすることができません。
+        サイバーメタルチンピラという言葉は私が知らないため、どのようなものを指しているかをお教えてください。その上で、私がお答えすることができるようになります。
       </p>
       <small>
         「サイバーメタルチンピラを使った歌詞を考えて」

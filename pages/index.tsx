@@ -3,7 +3,7 @@ import {Mokuji} from '../components/Mokuji'
 export default function Page() {
   return (
     <div>
-      <h1 style={{marginBottom: '1.5rem', fontSize: '1.6rem'}}>目次</h1>
+      <h1 style={{marginBottom: '1.2rem', fontSize: '1.5rem'}}>目次</h1>
       <Mokuji
         title={'サイバーメタルチンピラとは何か'}
         description={'AIに聞いてみた'}
@@ -61,9 +61,10 @@ export default function Page() {
       />
       <Mokuji
         title={'秋葉原に10年ぐらい住んでみた+有明に住んでみた'}
-        description={'人生って難しい'}
+        description={'オタクの聖地に住んでみよう'}
         author={'なのくろ'}
       />
+      <p style={{fontSize: '1rem'}}>あとがき</p>
     </div>
   )
 }
