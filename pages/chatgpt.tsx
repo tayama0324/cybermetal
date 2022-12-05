@@ -5,7 +5,7 @@ export default function Page() {
     <div>
       <Title
         title={'サイバーメタルチンピラとは何か'}
-        description={'チャットAIに聞いてみた'}
+        description={'AIに聞いてみた'}
         author={'OpenAI ChatGPT'}
         image={'/chatgpt.png'}
         website={'https://chat.openai.com'}

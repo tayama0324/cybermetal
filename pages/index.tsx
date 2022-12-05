@@ -25,7 +25,7 @@ export default function Page() {
       <Mokuji
         page={0}
         title={'値段差10倍のメガネを買った話'}
-        description={'タイトル通り'}
+        description={'果たして値段分の差はあるのだろうか'}
         author={'kusano_k'}
       />
       <Mokuji
