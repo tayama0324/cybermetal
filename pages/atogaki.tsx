@@ -35,7 +35,7 @@ export default function Page() {
           <Atogaki author={'物入れ狂戦士'} image={'/pokeba/author.png'} message={'平穏無事に暮らしたいですね'} />
           <Atogaki author={'おめが'} image={'/omega/author.png'} message={''} />
           <Atogaki author={'ながいたん'} image={'/nagaitan/author.jpeg'} message={'コミケ初参戦です。よい記念になりました。'} />
-          <Atogaki author={'daichiro.eth'} image={'/daichiro/author.png'} message={''} />
+          <Atogaki author={'daichiro.eth'} image={'/daichiro/author.png'} message={'お金が一向に貯まりません'} />
           <Atogaki author={'なのくろ'} image={'/nanocloudx/author.jpeg'} message={'最後までお読みいただきありがとうございました！来年は良い年になりますように！！！'} />
         </div>
       </div>
