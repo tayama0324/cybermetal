@@ -6,6 +6,10 @@ export default function Page() {
       <h1 style={{marginBottom: '1.2rem', fontSize: '1.5rem'}}>目次</h1>
       <Mokuji
         page={0}
+        description={'プロローグ'}
+      />
+      <Mokuji
+        page={0}
         title={'サイバーメタルチンピラとは何か'}
         description={'AIに聞いてみた'}
         author={'OpenAI ChatGPT'}
@@ -30,21 +34,15 @@ export default function Page() {
       />
       <Mokuji
         page={0}
-        title={'田舎に引越したので自動車を買った'}
-        description={'自動車を買ったときにあったあれこれの覚書'}
-        author={'かえで@office_acer'}
-      />
-      <Mokuji
-        page={0}
-        title={'田舎の一軒家に住み始めた'}
+        title={'東京に住む貧乏人どもへの提言'}
         description={'田舎の一軒家に住んだ方がQOLが上がる人種について'}
         author={'でら'}
       />
       <Mokuji
         page={0}
-        title={'未定'}
-        description={'きらファン2部の話'}
-        author={'冬椿'}
+        title={'田舎に引越したので自動車を買った'}
+        description={'自動車を買ったときにあったあれこれの覚書'}
+        author={'かえで@office_acer'}
       />
       <Mokuji
         page={0}
@@ -55,7 +53,13 @@ export default function Page() {
       <Mokuji
         page={0}
         title={'未定'}
-        description={'早くない自転車競技'}
+        description={'きらファン2部の話'}
+        author={'冬椿'}
+      />
+      <Mokuji
+        page={0}
+        title={'早くない自転車競技'}
+        description={'へんてこ自転車に乗りたい欲がたかまるたかまる'}
         author={'おめが'}
       />
       <Mokuji
@@ -78,7 +82,7 @@ export default function Page() {
       />
       <Mokuji
         page={99}
-        description={'あとがき'}
+        description={'編集後記'}
       />
     </div>
   )

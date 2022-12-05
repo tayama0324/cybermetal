@@ -21,18 +21,18 @@ export default function Page() {
         <p>
           もしかしたら来年も発行するかもしれませんので、そのときは是非またお立ち寄りいただければ幸いです。この度は本誌を手にとっていただき誠にありがとうございます。
         </p>
-        <p style={{textAlign: 'right'}}>編集長 なのくろ</p>
+        <p style={{textAlign: 'right'}}>編集担当 なのくろ</p>
       </div>
       <div style={{marginTop: '1.5rem'}}>
-        <h2>著者ひとこと</h2>
+        <h2>著者からひとこと</h2>
         <div>
           <Atogaki author={'kinoppyd'} image={'/kinoppyd/author.jpeg'} message={'禁酒中なんで酒が飲みたいです'} />
           <Atogaki author={'tayama0324'} image={'/tayama/author.jpg'} message={'ハイクを詠め'} />
           <Atogaki author={'kusano_k'} image={'/kusano/author.png'} message={'今年のふるさと納税の枠が残っている人は、金子眼鏡店の割引券をもらいましょう。'} />
-          <Atogaki author={'かえで@office_acer'} image={'/sekiyasu/author.jpeg'} message={'実家に引っ越して1年、縮小した部分はあるものの相変わらず活動の中心は東京です。'} />
           <Atogaki author={'でら'} image={'/dera/author.jpeg'} message={''} />
-          <Atogaki author={'冬椿'} image={'/fuyutsubaki/author.png'} message={''} />
+          <Atogaki author={'かえで@office_acer'} image={'/sekiyasu/author.jpeg'} message={'実家に引っ越して1年、縮小した部分はあるものの相変わらず活動の中心は東京です。'} />
           <Atogaki author={'物入れ狂戦士'} image={'/pokeba/author.png'} message={'平穏無事に暮らしたいですね'} />
+          <Atogaki author={'冬椿'} image={'/fuyutsubaki/author.png'} message={''} />
           <Atogaki author={'おめが'} image={'/omega/author.png'} message={''} />
           <Atogaki author={'ながいたん'} image={'/nagaitan/author.jpeg'} message={'コミケ初参戦です。よい記念になりました。'} />
           <Atogaki author={'daichiro.eth'} image={'/daichiro/author.png'} message={'お金が一向に貯まりません'} />
