@@ -66,8 +66,8 @@ export default function Page() {
       />
       <Mokuji
         page={0}
-        title={'未定'}
-        description={'NFT'}
+        title={'NFTで億万長者になる方法'}
+        description={'巷で話題のNFTを理解して一攫千金を狙います'}
         author={'daichiro.eth'}
       />
       <Mokuji
