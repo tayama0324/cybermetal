@@ -27,7 +27,7 @@ export default function Page() {
         <h2>著者ひとこと</h2>
         <div>
           <Atogaki author={'kinoppyd'} image={'/kinoppyd/author.jpeg'} message={'禁酒中なんで酒が飲みたいです'} />
-          <Atogaki author={'tayama0324'} image={'/tayama/author.jpg'} message={''} />
+          <Atogaki author={'tayama0324'} image={'/tayama/author.jpg'} message={'ハイクを詠め'} />
           <Atogaki author={'kusano_k'} image={'/kusano/author.png'} message={'今年のふるさと納税の枠が残っている人は、金子眼鏡店の割引券をもらいましょう。'} />
           <Atogaki author={'かえで@office_acer'} image={'/sekiyasu/author.jpeg'} message={'実家に引っ越して1年、縮小した部分はあるものの相変わらず活動の中心は東京です。'} />
           <Atogaki author={'でら'} image={'/dera/author.jpeg'} message={''} />
