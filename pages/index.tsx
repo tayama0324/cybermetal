@@ -5,17 +5,17 @@ export default function Page() {
     <div>
       <h1 style={{marginBottom: '1.2rem', fontSize: '1.5rem'}}>目次</h1>
       <Mokuji
-        page={0}
+        page={2}
         description={'プロローグ'}
       />
       <Mokuji
-        page={0}
+        page={3}
         title={'サイバーメタルチンピラとは何か'}
         description={'AIに聞いてみた'}
         author={'OpenAI ChatGPT'}
       />
       <Mokuji
-        page={0}
+        page={4}
         title={'お酒を蒸留するということ'}
         description={'お酒を蒸留する方法や効果はいろいろあるんだねって話'}
         author={'kinoppyd'}
