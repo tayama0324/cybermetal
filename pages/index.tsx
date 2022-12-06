@@ -34,7 +34,7 @@ export default function Page() {
         page={0}
         title={'値段差10倍のメガネを買った話'}
         description={'果たして値段分の差はあるのだろうか'}
-        author={'kusano_k'}
+        author={'@kusano_k'}
         // 7page
       />
       <Mokuji
@@ -63,11 +63,11 @@ export default function Page() {
         title={'まだ間に合うのできらファン2部を8章まで読んで下さい'}
         description={'きららファンタジア2部やれ。まだまにあう。2020年代きららの片鱗を感じろ'}
         author={'冬椿'}
-        // ???page
+        // 5page
       />
       <Mokuji
         page={0}
-        title={'秋葉原に10年ぐらい住んでみた+有明に住んでみた'}
+        title={'秋葉原に10年ぐらい住んでみた＆続編'}
         description={'オタクの聖地に住んでみよう'}
         author={'なのくろ'}
         // 7page
