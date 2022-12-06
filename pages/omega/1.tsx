@@ -5,8 +5,8 @@ export default function Page() {
   return (
     <div>
       <Title
-        title={'未定'}
-        description={'早くない自転車競技'}
+        title={'速くない自転車競技'}
+        description={'へんてこ自転車に乗りたい欲がたかまるたかまる'}
         author={'おめが'}
         image={'/omega/author.png'}
         twitter={'@omegamega'}

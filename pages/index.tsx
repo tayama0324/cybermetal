@@ -58,7 +58,7 @@ export default function Page() {
       />
       <Mokuji
         page={0}
-        title={'早くない自転車競技'}
+        title={'速くない自転車競技'}
         description={'へんてこ自転車に乗りたい欲がたかまるたかまる'}
         author={'おめが'}
       />
