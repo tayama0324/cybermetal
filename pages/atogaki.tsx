@@ -33,7 +33,7 @@ export default function Page() {
           <Atogaki author={'かえで@office_acer'} image={'/sekiyasu/author.jpeg'} message={'実家に引っ越して1年、縮小した部分はあるものの相変わらず活動の中心は東京です。'} />
           <Atogaki author={'おめが'} image={'/omega/author.png'} message={'無限の倉庫があれば買ってた'} />
           <Atogaki author={'物入れ狂戦士'} image={'/pokeba/author.png'} message={'平穏無事に暮らしたいですね'} />
-          <Atogaki author={'冬椿'} image={'/fuyutsubaki/author.png'} message={'今年読むべききらら作品「死神ドットコム」が完結したらしいです'} />
+          <Atogaki author={'冬椿'} image={'/fuyutsubaki/author.png'} message={'今年読むべききらら作品「死神ドットコム」が月曜完結したらしいです'} />
           <Atogaki author={'なのくろ'} image={'/nanocloudx/author.jpeg'} message={'来年は良い年になりますように...(切実)'} />
           <Atogaki author={'でら'} image={'/dera/author.jpeg'} message={''} />
           <Atogaki author={'daichiro.eth'} image={'/daichiro/author.png'} message={'お金が一向に貯まりません'} />
