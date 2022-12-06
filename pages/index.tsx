@@ -60,8 +60,8 @@ export default function Page() {
       />
       <Mokuji
         page={0}
-        title={'未定'}
-        description={'きらファン2部の話'}
+        title={'まだ間に合うのできらファン2部を8章まで読んで下さい'}
+        description={'きららファンタジア2部やれ。まだまにあう。2020年代きららの片鱗を感じろ'}
         author={'冬椿'}
         // ???page
       />
