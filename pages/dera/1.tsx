@@ -7,7 +7,7 @@ export default function Page() {
         title={'東京に住む貧乏人どもへの提言'}
         description={'田舎の一軒家に住んだ方がQOLが上がる人種について'}
         author={'でら'}
-        image={'/dera/author.jpeg'}
+        image={'/dera/author.png'}
       />
       <p>
         It works!
