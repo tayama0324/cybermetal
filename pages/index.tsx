@@ -5,12 +5,12 @@ export default function Page() {
     <div>
       <h1 style={{marginBottom: '1.2rem', fontSize: '1.5rem'}}>目次</h1>
       <Mokuji
-        page={2}
+        page={0}
         description={'プロローグ'}
-        // 1page
+        // 2page
       />
       <Mokuji
-        page={3}
+        page={0}
         title={'サイバーメタルチンピラとは何か'}
         description={'AIに聞いてみた'}
         author={'OpenAI ChatGPT'}
@@ -39,17 +39,17 @@ export default function Page() {
       />
       <Mokuji
         page={0}
-        title={'田舎に引越したので自動車を買った'}
-        description={'自動車を買ったときにあったあれこれの覚書'}
-        author={'かえで@office_acer'}
-        // 2page
+        title={'まだ間に合うのできらファン2部を8章まで読んで下さい'}
+        description={'きららファンタジア2部やれ。まだまにあう。2020年代きららの片鱗を感じろ'}
+        author={'冬椿'}
+        // 5page
       />
       <Mokuji
         page={0}
-        title={'速くない自転車競技'}
-        description={'へんてこ自転車に乗りたい欲がたかまるたかまる'}
-        author={'おめが'}
-        // 4page
+        title={'NFTで億万長者になる方法'}
+        description={'巷で話題のNFTを理解して一攫千金を狙います'}
+        author={'daichiro.eth'}
+        // 6page
       />
       <Mokuji
         page={0}
@@ -60,17 +60,17 @@ export default function Page() {
       />
       <Mokuji
         page={0}
-        title={'まだ間に合うのできらファン2部を8章まで読んで下さい'}
-        description={'きららファンタジア2部やれ。まだまにあう。2020年代きららの片鱗を感じろ'}
-        author={'冬椿'}
-        // 5page
+        title={'速くない自転車競技'}
+        description={'へんてこ自転車に乗りたい欲がたかまるたかまる'}
+        author={'おめが'}
+        // 4page
       />
       <Mokuji
         page={0}
-        title={'秋葉原に10年ぐらい住んでみた＆後日譚'}
-        description={'オタクの聖地に住んでみよう'}
-        author={'なのくろ'}
-        // 8page
+        title={'田舎に引越したので自動車を買った'}
+        description={'田舎暮らしにクルマは必需品でしょ？持っていなかったら人権ないよね？'}
+        author={'かえで@office_acer'}
+        // 2page
       />
       <Mokuji
         page={0}
@@ -81,10 +81,10 @@ export default function Page() {
       />
       <Mokuji
         page={0}
-        title={'NFTで億万長者になる方法'}
-        description={'巷で話題のNFTを理解して一攫千金を狙います'}
-        author={'daichiro.eth'}
-        // 6page
+        title={'秋葉原に10年ぐらい住んでみた＆後日譚'}
+        description={'オタクの聖地に住んでみよう'}
+        author={'なのくろ'}
+        // 8page
       />
       <Mokuji
         page={0}

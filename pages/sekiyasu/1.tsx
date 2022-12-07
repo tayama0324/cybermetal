@@ -6,7 +6,7 @@ export default function Page() {
     <div>
       <Title
         title={'田舎に引越したので自動車を買った'}
-        description={'自動車を買ったときにあったあれこれの覚書'}
+        description={'田舎暮らしにクルマは必需品でしょ？持っていなかったら人権ないよね？'}
         author={'かえで@office_acer'}
         image={'/sekiyasu/author.jpeg'}
         twitter={'@office_acer'}
