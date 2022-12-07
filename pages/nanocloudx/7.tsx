@@ -46,7 +46,7 @@ export default function Page() {
         そんなわけで、結婚相手募集中です。いつでもラブレターお待ちしています。
       </p>
       <p style={{textAlign: 'right', marginTop: '1.5rem'}}>
-        秋葉原に10年ぐらい住んでみた続編：完
+        秋葉原に10年ぐらい住んでみた後日譚：完
       </p>
     </div>
   )

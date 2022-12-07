@@ -67,7 +67,7 @@ export default function Page() {
       />
       <Mokuji
         page={0}
-        title={'秋葉原に10年ぐらい住んでみた＆続編'}
+        title={'秋葉原に10年ぐらい住んでみた＆後日譚'}
         description={'オタクの聖地に住んでみよう'}
         author={'なのくろ'}
         // 7page
@@ -75,8 +75,8 @@ export default function Page() {
       <Mokuji
         page={0}
         title={'東京に住む貧乏人どもへの提言'}
-        description={'田舎の一軒家に住んだ方がQOLが上がる人種について'}
-        author={'でら'}
+        description={'東京とかいう金持ちのための街に住む貧乏人どもへの有益なアドバイス'}
+        author={'ちんぴらD'}
         // ???page
       />
       <Mokuji
