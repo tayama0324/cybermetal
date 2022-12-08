@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={30}>
       <h2>
         2. NFT はトークンである
       </h2>
@@ -68,6 +69,6 @@ export default function Page() {
         例えば ID を1番から1000番まで振り、1000個の NFT を発行すればそれはシリーズになり、
         それを運営していくことを含めてプロジェクトと呼ぶこともあります。
       </p>
-    </div>
+    </Pagination>
   )
 }

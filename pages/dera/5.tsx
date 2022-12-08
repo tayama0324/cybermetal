@@ -1,8 +1,9 @@
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={49}>
       <h3>大体静か</h3>
       <p>
         ここまで金と広さの話しかして来なかったけど、お前ら東京に住んでて他にも困ってることがあるんじゃねぇか？ 例えば騒音とかさ。
@@ -41,6 +42,6 @@ export default function Page() {
       <p>
         で、頭が最高にキレてるおれは名案を思い付いたんだ。「上がうるさくして許されてるってことはおれも同じように上に対してうるさくしても問題ないはずだ。だが、どうせうるさくするなら楽しい方がいい。そうだ、おれは歌が好きだし、ここは歌って対抗するべきだろう。」ってな。世の中は歌って解決する物語で溢れてるし、その時は最高にイカした案だと思ったね。
       </p>
-    </div>
+    </Pagination>
   )
 }

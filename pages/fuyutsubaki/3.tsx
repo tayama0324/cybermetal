@@ -1,8 +1,9 @@
 import {Title} from '../../components/Title'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={26}>
       <h2>リコリスとヒナゲシ</h2>
       <p>
         絆、世界の暗さや自分の許せない部分を認めていく成長、陰鬱さからのカタルシス、友情……。
@@ -47,6 +48,6 @@ export default function Page() {
         彼女たちの関係は、『ひとりになるのは嫌だ』という感情と偽姉妹という共依存関係である。
         彼女たちは本当にきらら作品の登場人物なのだろうか？
       </p>
-    </div>
+    </Pagination>
   )
 }

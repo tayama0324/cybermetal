@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={64}>
       <Title
         title={'繁殖する技術'}
         description={'子どもをつくってみた話'}
@@ -23,6 +24,6 @@ export default function Page() {
       <h3>1.2. 1年子どもができなかったら不妊治療をはじめよう</h3>
       <p>日本産科婦人科学会では、健康な男女が1年間避妊をしないで性交渉をしても子どもができない場合「不妊」であると定義づけているそうです。年齢にもよりますが、30代前半であれば1年程度、30代後半以降であれば半年程度がんばって子どもができないようであれば、不妊治療に取り組んでみることをお勧めします。</p>
       <p>幸い、2022年4月から、不妊治療の保険適用が始まりました。それまでも自治体ごとに助成金などはありましたが、保険適用の場合は煩雑な手続きが特に必要なく、自治体による差もないのが良いところですね。</p>
-    </div>
+    </Pagination>
   )
 }

@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={43}>
       <Title
         title={'田舎に引越したので自動車を買った'}
         description={'田舎暮らしにクルマは必需品でしょ？持っていなかったら人権ないよね？'}
@@ -39,6 +40,6 @@ export default function Page() {
         ロードスターは運転の楽しさはあるものの2シーターの上にトランクも狭く実用性に難ありそう。BRZは排気量が大きいだけあり出力に余裕は感じるものの小回りがきかず自宅での保管が大変そう、かつ他2車より車両価格・維持費とも高額になるのが厳しい。スイフトはアクセル操作による出力の出方がピーキーに感じたけど*恐らくは慣れの範囲、他2車と違って前輪駆動という残念ポイントはあるけれど、取り回し・実用性・価格とどれを取っても最有力候補かな…というか試乗する前からほぼスイフト一択だったのですけどね。試乗自体が念のためという感じではありました。
       </p>
       <small>*実際に所有した個体ではピーキーさを感じなかったので、試乗車固有の特性だったのかも</small>
-    </div>
+    </Pagination>
   )
 }

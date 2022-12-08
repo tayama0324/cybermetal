@@ -1,8 +1,9 @@
 import {Title} from '../../components/Title'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={29}>
       <Title
         title={'NFTで億万長者になる方法'}
         description={'巷で話題のNFTを理解して一攫千金を狙います'}
@@ -53,6 +54,6 @@ export default function Page() {
         あなたの予測と気がついた事実はどちらも正しいです。
         ただし、NFT についての理解が間違っているので矛盾があるように思えてしまうのですね。
       </p>
-    </div>
+    </Pagination>
   )
 }

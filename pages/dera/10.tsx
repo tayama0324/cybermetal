@@ -1,8 +1,9 @@
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={54}>
       <h3>町内会への参加・近所付き合いは必須</h3>
       <p>
         これは東京に染まりまくったコミュ障どもにはちと厳しい話だな。
@@ -44,6 +45,6 @@ export default function Page() {
       <p>
         だけど、そういう奴は除草剤を2~3度に分けてぶっかければいい話だから、面倒なのは一瞬で終わるよ。除草剤自体も1000円かそこらあれば買えるもんだしな。
       </p>
-    </div>
+    </Pagination>
   )
 }

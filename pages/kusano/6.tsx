@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={22}>
       <p>
         家で、「やっぱり値段が10倍違うと、けっこう違うんだな～」とメガネを交互に掛けていたら、衝撃の事実に気が付きました。
         金子眼鏡店のカードに書かれた度数情報と、JINSで渡された度数情報で、レンズの左右が逆です。
@@ -46,6 +47,6 @@ export default function Page() {
         そういえば、JINSでは一番屈折率の高いレンズは在庫が切れていて取り寄せになると言われ、JINSのほうが屈折率が低いので、ちょっとJINSに有利かもしれません。
         屈折率が高いほど、無理が掛かって、周辺部の歪みや色の滲みが大きくなりそうな気がします。
       </p>
-    </div>
+    </Pagination>
   )
 }

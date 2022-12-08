@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={57}>
       <h2>つくばエクスプレス開業</h2>
       <p>
         しばらく時が過ぎ、つくばエクスプレスが開業。
@@ -52,6 +53,6 @@ export default function Page() {
         DJも良いのだけど flapper3 のVJがカッコ良すぎたせいで AfterEffects にもドハマりした。
         好きが高じて映像業界に片足を突っ込み、いろいろなMVの撮影現場で過ごすことが多くなった。
       </p>
-    </div>
+    </Pagination>
   )
 }

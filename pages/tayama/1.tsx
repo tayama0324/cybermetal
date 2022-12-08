@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={5}>
       <Title
         title={'なぜ人は575が好きなのか'}
         description={'俳句のリズムを心地よく感じる理由を言語・音楽の見地から説明します'}
@@ -18,6 +19,6 @@ export default function Page() {
       <p>
         五・七・五はなぜ心地よいのでしょうか。この記事は、その理由を日本語の音韻論的特性とリズムの音楽的特性から説明します。なお、これは筆者の独自研究であり、専門的知識に裏付けされたものではないことをあらかじめご了承ください。
       </p>
-    </div>
+    </Pagination>
   )
 }

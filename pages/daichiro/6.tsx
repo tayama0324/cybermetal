@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={34}>
       <p>
         最後に。
       </p>
@@ -24,7 +25,7 @@ export default function Page() {
       <Image
         href={'/daichiro/bayc.png'}
         description={'BAYC'}
-        widthPercentage={'25'}
+        widthPercentage={25}
       />
       <p>
         Board Ape Yacht Club、通称 BAYC。
@@ -34,13 +35,13 @@ export default function Page() {
       <Image
         href={'/daichiro/cryptopunks.png'}
         description={'CryptoPunks'}
-        widthPercentage={'25'}
+        widthPercentage={25}
       />
       <p>
         コレクティブNFT＝ドット絵のイメージを作ったプロジェクト。
         最高売却額は27億円らしいですが、今の価値だと220億円です。
         初めは10万円台でした。夢がありますね。
       </p>
-    </div>
+    </Pagination>
   )
 }

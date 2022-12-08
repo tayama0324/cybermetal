@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={31}>
       <p>
         いわゆる「成功した」NFT プロジェクトの中には、次のような性質のものがあります。
       </p>
@@ -68,6 +69,6 @@ export default function Page() {
         と今までの説明の理解だとそう解釈する方がいるかもしれません。
         NFT の標準規格を満たすだけでは NFT の絵は変わる可能性があります。
       </p>
-    </div>
+    </Pagination>
   )
 }

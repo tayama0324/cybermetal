@@ -1,8 +1,9 @@
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={48}>
       <p>
         でも、中にはリフォームしてる物件もそこそこあるから家のクオリティにある程度こだわりてぇ奴はそういった所を探すと良い。田舎の不動産は東京のぼったくり詐欺師不動産どもと比べると遥かに親切だから聞けばきっと教えてくれるよ。
       </p>
@@ -35,6 +36,6 @@ export default function Page() {
         東京でこれをやったら通報されるし下手すりゃあ前科者になっちまうな。やっぱ田舎は土地も心も広いんだなってそう思うよ。
       </p>
       <Image href={'/dera/house2.jpg'} description={'家の庭'} widthPercentage={50} />
-    </div>
+    </Pagination>
   )
 }

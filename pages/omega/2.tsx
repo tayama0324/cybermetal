@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={40}>
       <p>
         競技はその時々に作られるコースを走破してスコアを競う。競技会によって若干の差はあるものの概ね、片足やペダルが接地すると1点減点、両足を付いたり転倒すると5点で即失格、という形で文字通り「足を付いたら負け」である。ただし、難しいコースで転倒5点を回避するために、片足着地1点で回避するといったプレイでは称賛をされることもあるよう
       </p>
@@ -29,6 +30,6 @@ export default function Page() {
       <p>
         競技の場合はフィギュアスケート同様に、時間内に競技者が自由に技を行い、それを複数人のジャッジによる総合スコアで評価する
       </p>
-    </div>
+    </Pagination>
   )
 }

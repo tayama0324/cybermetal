@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={20}>
       <p>
         「予算に応じて」で良いのか。
         一番高い屈折率で、中の下くらいの値段のものにしました。
@@ -58,6 +59,6 @@ export default function Page() {
         金子眼鏡店でメガネと一緒に渡されたカードにはSPHとCYL、AXSは書かれていましたが、PDがありませんでした。
         まあ、メガネ屋にはメガネを計測する機械があるので、メガネを持っていけば、測って同じパラメタのメガネを作ってくれるはずです。
       </p>
-    </div>
+    </Pagination>
   )
 }

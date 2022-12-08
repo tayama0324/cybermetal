@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={18}>
       <p>
         メガネさえあれば視力に問題はなく、運転免許証の更新の際の視力測定も余裕でクリアできます。
       </p>
@@ -48,6 +49,6 @@ export default function Page() {
         金子眼鏡店を選んだのは、この価格帯のメガネ屋では定番だからです。
         友人にも金子眼鏡店のメガネを掛けている人がいました。
       </p>
-    </div>
+    </Pagination>
   )
 }

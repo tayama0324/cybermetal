@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={56}>
       <Title
         title={'秋葉原に10年ぐらい住んでみた'}
         description={'僕の思い出'}
@@ -35,6 +36,6 @@ export default function Page() {
         ほとんど寄り道はしなかったが、街並みを眺めているだけでとにかく楽しすぎた。
         結局私はザ・コンに戻り、シマンテックの黄色いパッケージを無事購入。貴重な体験だった。
       </p>
-    </div>
+    </Pagination>
   )
 }

@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={44}>
       <h2>いざ購入</h2>
       <p>
         購入する車種は決まったものの、私生活が忙しくてディーラーに行けたのは7月末になって。そこで衝撃的な事実が…スイフトスポーツ受注停止とな。モデル末期でフルモデルチェンジの噂も出ており、新車での購入は既に不可能かもということで中古を探してもらったら数台見つかり、結局その中からオプション関連はやや妥協*となったものの、車体色も悪くなく2022年4月登録で走行3,600kmの個体を選ぶことにしました。前オーナーの置き土産でドライブレコーダー（国内メーカー製）も付いていたし。
@@ -26,6 +27,6 @@ export default function Page() {
       <p>
         スタッドレスタイヤについて、私の居住地は雪が積もるような場所ではないものの少し北とか西に行ったら降雪地帯なのでそれなりに優先度が高いはずなのですが、今シーズンの購入は見送ることになるかも。
       </p>
-    </div>
+    </Pagination>
   )
 }

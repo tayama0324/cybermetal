@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={12}>
       <Title
         title={'お酒を蒸留するということ'}
         description={'お酒を蒸留する方法や効果はいろいろあるんだねって話'}
@@ -26,6 +27,6 @@ export default function Page() {
       <p>
         もちろん、醸造酒と蒸留酒の違いは製造過程にあり、アルコール度数の違いではありません。では、なぜアルコール度数で判断することができるのでしょうか？　その答えは、２０パーセントのアルコール度数を超えるためには、お酒を造る過程で蒸留という工程を経ないと簡単には実現できないからです。そして、蒸留という工程を経たお酒のことを蒸留酒と呼ぶので、アルコール度数が２０パーセントを超えているお酒のことを蒸留酒と判断することができます。もちろん、例外的に２０パーセントを超える醸造酒や、２０パーセントを下回る蒸留酒も存在するので、確実に判断することはできませんが、多くの場合は当てはまります。
       </p>
-    </div>
+    </Pagination>
   )
 }

@@ -1,8 +1,9 @@
 import {Title} from '../../components/Title'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={35}>
       <Title
         title={'スリーカウント転職ルール'}
         description={'3回灯がともったらプレインズウォークする'}
@@ -39,6 +40,6 @@ export default function Page() {
         実際、このルールを運用して10年弱ですが後悔したことは今のところ一度もないので、自分にとっては丁度良い数字だったということなのでしょう。
         シンじゃないウルトラマンの地球活動限界やインスタントラーメンの待ち時間は3分間ですし、俳句は3句で構成されますし、やっぱり3には何かあるんじゃないですかね……知らんけど。
       </p>
-    </div>
+    </Pagination>
   )
 }

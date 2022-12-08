@@ -1,8 +1,9 @@
 import {Title} from '../../components/Title'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={28}>
       <h2>なんでこの話書こうと思ったの？</h2>
       <p>
         第2部は正直あまり評判がよくない。
@@ -42,6 +43,6 @@ export default function Page() {
         サービスの終了は2023年2月28日です。
       </p>
 
-    </div>
+    </Pagination>
   )
 }

@@ -1,8 +1,9 @@
 import {Title} from '../../components/Title'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={36}>
       <p>
         さて、本ルールをもう少し詳しく見ていきましょう。
         次に示すのは筆者が履歴書や職務経歴書を管理するGit Repositoryに記録しているスリーカウント転職ルールの規約です。
@@ -46,6 +47,6 @@ export default function Page() {
         その人たちがいると知っていたことが入社を決めた要因のひとつにしていた筆者は（若かったこともあって）転職を意識することになりました。
         しかし、さすがに新卒入社した会社を速攻で退職するのはどうなのと考えた結果、スリーカウント転職ルールを制定するに至ったのでした。
       </p>
-    </div>
+    </Pagination>
   )
 }

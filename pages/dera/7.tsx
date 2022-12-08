@@ -1,8 +1,9 @@
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={51}>
       <p>
         おれは一応自炊しているが、おれはお前らと違って毎日体を鍛えてるから飯は1日3000kcal以上とかなり食う方だし栄養バランスを考えてるからちょっと高く付いている方だとは思う。お前らのように栄養バランスを考えずにコスパがいいものを食うだけならもっと安く生活できるだろうな。
       </p>
@@ -41,6 +42,6 @@ export default function Page() {
       <p>
         エデンを愛するものとしてこの罠について語りたくはねぇが、語らねぇと東京の詐欺師不動産野郎と一緒になっちまうからな。それはおれのプライドが許さねぇから敢えて語ろうと思う。
       </p>
-    </div>
+    </Pagination>
   )
 }

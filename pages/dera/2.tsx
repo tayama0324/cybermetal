@@ -1,8 +1,9 @@
 import {Title} from '../../components/Title'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={46}>
       <h2>貧乏人どものすべきこと</h2>
       <p>
         てか、お前ら年収1000万以上なくても自分は貧乏じゃないって思ってないか？ はっきり言うとそれは間違いだ。
@@ -48,6 +49,6 @@ export default function Page() {
       <p>
         東京だとウサギ小屋みてぇな1Kの部屋でも安くて7~8万、たけぇ所だと10万以上するだろ？ ウサギ小屋よか多少マシな動物園の檻みてぇな1LDKになると普通に15万は超えるはずだ。
       </p>
-    </div>
+    </Pagination>
   )
 }

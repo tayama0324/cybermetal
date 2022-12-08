@@ -1,6 +1,8 @@
+import {Pagination} from '../../components/Pagination'
+
 export default function Page() {
   return (
-    <div>
+    <Pagination page={61}>
       <p>
         そんな有明の交通を劇的に改善すると噂されているのが、来年に開業予定の「東京BRT(Bus Rapid Transit)」である。
         バスではあるのだが、様々な工夫によって電車と遜色ない定時運行が可能となっており、料金も安く有明~新橋を10分強で移動できるとされている。
@@ -41,6 +43,6 @@ export default function Page() {
         普段は有明ガーデンで十分だが、豊洲に行けばららぽーとがあるので気分転換に足を伸ばすのも楽しい。
         お台場はお散歩するには丁度よい距離である。適度に歩いてお台場海浜公園やレインボーブリッジを散策できるのは魅力である。
       </p>
-    </div>
+    </Pagination>
   )
 }

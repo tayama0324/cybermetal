@@ -1,8 +1,9 @@
 import {Title} from '../../components/Title'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={27}>
       <h2>リコリスの行く末</h2>
       <p>
         リコリスというキャラクターについては話を読み進めていくうちにある違和感に気が付くだろう。
@@ -45,6 +46,6 @@ export default function Page() {
         この後には未回収フラグ（敵組織の事情など）を「サクっと」回収したりしなかったりする最終章と外伝があります。
         だから前述の話は、無い話です。
       </p>
-    </div>
+    </Pagination>
   )
 }

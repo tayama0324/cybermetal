@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={73}>
       <p>心拍がわかるようになるのが7週目ごろ。ここで心拍が計測できると、不妊治療クリニックは卒業。紹介状を書いてもらい、産院に転院するようになります。同時に、役所に行って母子手帳をもらってきたりします。</p>
       <p>最近はお産ができる病院も限られてきているので、産院は早めにリサーチしておくとよいでしょう。選び方はいくつかありますが、自宅や実家から近いか、無痛分娩など自分が希望する出産方法が選べるか、病院や病室の雰囲気が良いか、何かあった場合に対応してもらえる体制があるか、などを基準に選ぶと良いかと思います。</p>
       <p>筆者の場合は、自宅からさほど離れていない病院を選んで紹介状を書いてもらいました。出産を希望する病院には早めに申し込んでおかないと枠が埋まってしまう可能性があるので、手続きは早めにすることをお勧めします。</p>
@@ -18,6 +19,6 @@ export default function Page() {
         <li>*3 令和２年（2020）人口動態統計月報年計（概数）の概況</li>
         <li>*4 Justin Chu Reprod Health.2019; 16: 105.</li>
       </ul>
-    </div>
+    </Pagination>
   )
 }

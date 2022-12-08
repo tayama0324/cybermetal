@@ -24,7 +24,7 @@ export const Okuduke: React.FC<Props> = (props) => {
         </div>
         <div>
           <dt>印刷所</dt>
-          <dd>＊＊＊＊＊</dd>
+          <dd>株式会社栄光</dd>
         </div>
       </dl>
     </div>

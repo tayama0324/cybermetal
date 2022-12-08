@@ -1,8 +1,9 @@
 import {Title} from '../../components/Title'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={37}>
       <p>
         これは典型的なネガティブ要因の転職動機でしたね、いや～若かったなぁ。
       </p>
@@ -52,6 +53,6 @@ export default function Page() {
         この会社は09:00 ~ 18:00の定時勤務を採用し、毎日オフィスに通勤する際にはスーツの着用が必要でした。
         COVID-19が流行する以前の受託SIによくあるパターンだと思われます。
       </p>
-    </div>
+    </Pagination>
   )
 }

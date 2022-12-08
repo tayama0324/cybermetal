@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={17}>
       <Title
         title={'値段差10倍のメガネを買った話'}
         description={'果たして値段分の差はあるのだろうか'}
@@ -34,6 +35,6 @@ export default function Page() {
         裸眼視力は久しく測っていないので、今はどうなのか分かりません。
         健康診断の視力測定は、スティックの付いた機械でしたが、あれならとても視力が悪くても測れるのでしょうか？
       </p>
-    </div>
+    </Pagination>
   )
 }

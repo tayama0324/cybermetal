@@ -1,8 +1,9 @@
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={52}>
       <p>
         要約すると↓の通りだ。これだけで幻滅しちまった奴は引き続きクソ東京で犬畜生みてぇな底辺の生活を送り続けることをオススメするよ。
       </p>
@@ -35,7 +36,7 @@ export default function Page() {
       <p>
         その体力すらねぇクソ雑魚どもはジムで体作ってから出直すか、心もとねぇ身銭を切って自動車を買うことだな。
       </p>
-      <Image href={'/dera/chari.jpg'} description={'おれのロードバイク'} widthPercentage={90} />
-    </div>
+      <Image href={'/dera/chari.jpg'} description={'おれのロードバイク'} widthPercentage={80} />
+    </Pagination>
   )
 }

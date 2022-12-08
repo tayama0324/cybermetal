@@ -1,8 +1,9 @@
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={62}>
       <h2>有明に住んでみた</h2>
       <p>
         そんな魅力たっぷりの有明地区は、言わずもがな地価がずっと上がり続けている。
@@ -23,6 +24,6 @@ export default function Page() {
       <p>
         去年豪華な結婚式を挙げたし、タワーマンションと高級車も手に入れた。あとは有明で優雅で安泰な人生を謳歌するだけである。おーっほっほっほ。
       </p>
-    </div>
+    </Pagination>
   )
 }

@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={45}>
       <Title
         title={'東京に住む貧乏人どもへの提言'}
         description={'東京とかいう金持ちのための街に住む貧乏人どもへの有益なアドバイス'}
@@ -28,6 +29,6 @@ export default function Page() {
       <p>
         これは、1人で1000万稼ぐ力もねぇ金持ちな連れを捕まえる魅力もねぇクソ雑魚どもに向けた話だから、クソ雑魚どもはこれから書かれていることを心して読め。
       </p>
-    </div>
+    </Pagination>
   )
 }

@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={16}>
       <p>
         香り付けの方法は、ニュートラルスピリッツとボタニカルを一緒に単式蒸留器にいれ蒸留したり、蒸留器の蒸気が通る部分にボタニカルを入れたカゴを取り付けて高温のエタノールを通過させたり、様々です。このように、一度作った蒸留酒に、さらにボタニカルを加えた上で蒸留するという作り方をされます。
       </p>
@@ -26,6 +27,6 @@ export default function Page() {
         <li>*5 https://www.nta.go.jp/about/organization/tokyo/sake/abc/abc-shochu.htm</li>
         <li>*6 https://okinawa-awamori.or.jp/stories/4939/</li>
       </ul>
-    </div>
+    </Pagination>
   )
 }

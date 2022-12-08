@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={32}>
       <p>
         NFT の絵はメタデータから生成されます。
         このメタデータに URL を指定していた場合、URL でアクセスした先の絵が変われば NFT に表示される絵も変わることになります
@@ -61,6 +62,6 @@ export default function Page() {
         NFT はおろか、ブロックチェーンとも関係がありません。
         もちろん組み合わせることはできますが、別の概念です。
       </p>
-    </div>
+    </Pagination>
   )
 }

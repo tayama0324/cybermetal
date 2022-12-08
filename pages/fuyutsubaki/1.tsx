@@ -1,8 +1,9 @@
 import {Title} from '../../components/Title'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={24}>
       <Title
         title={'まだ間に合うのできらファン2部を8章まで読んで下さい'}
         description={'きららファンタジア2部やれ。まだまにあう。2020年代きららの片鱗を感じろ'}
@@ -49,6 +50,6 @@ export default function Page() {
       <p>
         この世界はきららパンクなのだ。
       </p>
-    </div>
+    </Pagination>
   )
 }

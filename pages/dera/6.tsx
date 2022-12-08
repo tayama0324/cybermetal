@@ -1,8 +1,9 @@
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={50}>
       <p>
         それからは上の部屋が雷鳴を響かせ始める度に「OK！ おれのライブの時間だ！」とばかりにいろんな曲を歌ったよ。
       </p>
@@ -43,6 +44,6 @@ export default function Page() {
       <p>
         おれは生活費・食費だけで言えば東京にいた頃の6~7割程度の金額で生活できていると思う。あの頃は1日の食費・生活費に1500~2000円かけてたが、田舎に移り住んだ今では1日1000円程度で生活できている。
       </p>
-    </div>
+    </Pagination>
   )
 }

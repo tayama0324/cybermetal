@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={11}>
       <p>
         継続・継続・継続のリズムでこの句は成り立っています。『分け入つても』の繰り返しが語勢を強め、それが『青い山』で突き放すように突然に途切れます。楽曲『ワンダーステラ』と同様に継続のリズムで突然に終わるパターンであり、山の中をいくらさまよっても読み手の欲するものは得られないと言わんばかりの寂しさ、孤独感をもたらしています。
       </p>
@@ -32,6 +33,6 @@ export default function Page() {
         <li>[^8] https://twitter.com/smashedavolove/status/1109463546381983746</li>
         <li>[^9] 【登録者200万人！】歌ったり語ったりする【ホロライブ/宝鐘マリン】 44:38~ https://www.youtube.com/watch?v=waBnG141kqE</li>
       </ul>
-    </div>
+    </Pagination>
   )
 }

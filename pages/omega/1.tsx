@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={39}>
       <Title
         title={'速くない自転車競技'}
         description={'へんてこ自転車に乗りたい欲がたかまるたかまる'}
@@ -31,6 +32,6 @@ export default function Page() {
         モトトライアルがエンジンパワーでバイクを振り回しコントロールするのに対して、車重が軽い自転車ではジャンプが高く取れる、といった特色がある。
         動かずに静止するスタンディングを前提として、ウイリー状態で静止して飛び跳ねるダニエルといったテクニックを駆使して、足をつかずに障壁だらけのコースを走破する。足をつかずに。
       </p>
-    </div>
+    </Pagination>
   )
 }

@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={10}>
       <h2>字余り</h2>
       <p>
         五・七・五のモーラをわずかに外れた句は字余り、または字足らずと呼ばれます。同じ字余りの中でも、六・七・五や五・七・六に比べて五・八・五はより自然に句として感じられるのではないでしょうか。これも、五を六にすると表拍を伸ばすリズムが崩れてしまうのに対し、七を八に変えても裏拍を叩くリズムは変わらないため、と説明することができます。
@@ -24,6 +25,6 @@ export default function Page() {
         自由律俳句は五・七・五の韻律にとらわれない句であり、それは取りも直さず終止・継続・終止のリズムに囚われない句だとも言えます。自由律俳句の句、たとえば種田山頭火の句『分け入つても分け入つても青い山』は一見継続や終止のリズムが見えにくいですが、この句は実は三拍子なのです。
       </p>
       <Image href={'/tayama/9.png'} description={'Figure 9. 自由律俳句の例'} />
-    </div>
+    </Pagination>
   )
 }

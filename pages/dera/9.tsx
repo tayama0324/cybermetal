@@ -1,8 +1,9 @@
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={53}>
       <h3>虫がｸｯｿ湧く</h3>
       <p>
         地域にも依るのかもしれねぇが、田舎って所は大体虫がｸｯｿ湧くってのが相場だな。
@@ -50,6 +51,6 @@ export default function Page() {
       <p>
         ま、田舎は安いという話を散々してきたが、残念だけどこればっかりは金がかかっちまう感じだな。それでもトータルで見れば東京で暮らすよりは安く済むはずだ。
       </p>
-    </div>
+    </Pagination>
   )
 }

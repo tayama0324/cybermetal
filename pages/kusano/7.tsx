@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={23}>
       <p>
         レンズの周辺で見たときに色が滲むのは、光の色によって屈折率が異なるからです。
         プリズムで色が分かれる原理です。
@@ -33,6 +34,6 @@ export default function Page() {
         自宅以外の風呂場では、メガネがないと歩けないので、メガネのまま風呂場に行きますが、メガネにダメージが大きそうで不安です。
         そういうときに安いメガネがあると安心です。
       </p>
-    </div>
+    </Pagination>
   )
 }

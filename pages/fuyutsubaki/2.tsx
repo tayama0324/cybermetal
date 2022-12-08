@@ -1,8 +1,9 @@
 import {Title} from '../../components/Title'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={25}>
       <h2>きららファンタジア1部</h2>
       <p>
         まずきらファン2部の説明を簡単にするために、1部の説明を大まかにする。
@@ -55,6 +56,6 @@ export default function Page() {
         主人公たちはきらら作品御登場人物と共に冒険し、様々な人々と交流し、自分の嫌いなところをすこしずつ引き取り、どうしようもない中でも頑張ることを覚え、かけがえのない友人を作り成長し、敵に立ち向かっていく。
         そういった話である。
       </p>
-    </div>
+    </Pagination>
   )
 }

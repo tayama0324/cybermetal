@@ -1,6 +1,8 @@
+import {Pagination} from '../../components/Pagination'
+
 export default function Page() {
   return (
-    <div>
+    <Pagination page={63}>
       <h2>さよなら有明</h2>
       <p>・・・という夢を見ていたのかもしれない。いや、夢であってほしかった。</p>
       <p>
@@ -38,6 +40,6 @@ export default function Page() {
       <p style={{textAlign: 'right', marginTop: '1.5rem'}}>
         秋葉原に10年ぐらい住んでみた後日譚：完
       </p>
-    </div>
+    </Pagination>
   )
 }

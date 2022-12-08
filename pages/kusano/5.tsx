@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={21}>
       <p>
         格安メガネで有名なチェーン店はJINSとZoffです。
         値段は両者同じくらいですが、JINSは屈折率の高いレンズでも値段が変わらないところ、Zoffは追加料金が掛かります。
@@ -51,6 +52,6 @@ export default function Page() {
         最初に店に入ってから、完成したメガネを受け取るまでで、1時間くらいでした。
         すごい。
       </p>
-    </div>
+    </Pagination>
   )
 }

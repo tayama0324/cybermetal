@@ -1,8 +1,9 @@
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={47}>
       <p>
         家賃月15万以上の家に住むなんてお前ら貧乏人には無理な話だろ？ だからウサギ小屋みてぇな部屋でUberEatsばっか頼んでブクブクとデブったデケェ体を無理くりちっちゃくしながら生きてんだろ？
       </p>
@@ -37,6 +38,6 @@ export default function Page() {
       <p>
         お前中々賢いな、半分くらい当たってるよ。それが安い理由の１つなんだろうな。
       </p>
-    </div>
+    </Pagination>
   )
 }

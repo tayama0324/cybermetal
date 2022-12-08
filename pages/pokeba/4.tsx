@@ -1,8 +1,9 @@
 import {Title} from '../../components/Title'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={38}>
       <p>
         筆者は睡眠が崩壊しがちなため、朝の決まった時刻に起床して活動することが苦手です。
         そのような人間が毎日09:00にオフィスに辿り着いて出勤打刻することはそこそこハードルが高く、少なくとも月に1度以上は遅刻していたような気がします。
@@ -33,6 +34,6 @@ export default function Page() {
         これにもいくつかの理由があるのですが、今回の趣旨から外れるので触れないでおきます。
         あと昨今の転職事情についても書きたいことがあるのですが、これは書くには時間が足りなさすぎるので別の機会にとっておきます。
       </p>
-    </div>
+    </Pagination>
   )
 }

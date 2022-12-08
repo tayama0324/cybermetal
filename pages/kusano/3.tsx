@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={19}>
       <p>
         高い店って入るのが怖いんですよね……。
         安い店だと広告などでアピールしているので値段が分かりますが、高い店はいくら必要になるのか分からないし。
@@ -51,6 +52,6 @@ export default function Page() {
         まあ、でも、考えてみれば、ここですごくアピールされても10万円のレンズを買う金は無いし、わざわざ高い店に来ているのに最安のレンズを選ぶこともないですね。
         高い安いは人によって変わるでしょうが、説明を受けて買うレンズを変えることはあまりないのかもしれません。
       </p>
-    </div>
+    </Pagination>
   )
 }

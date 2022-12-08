@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={33}>
       <p>
         「AI」。
         特に関係ありません。
@@ -40,7 +41,7 @@ export default function Page() {
       <Image
         href={'/daichiro/nft_qr.png'}
         description={'opensea.io'}
-        widthPercentage={'25'}
+        widthPercentage={25}
       />
       <p>
         OpenSea というのは今のところ一番巨大なマーケットプレイスです。
@@ -52,6 +53,6 @@ export default function Page() {
         ブロックチェーン、NFT といった技術が 5 年後、10 年後に当たり前になっているのか、
         誰も見向きもしなくなっているのかはわかりませんが、もし当たり前になるのなら今学んでおくことは大きなアドバンテージになるかもしれません。
       </p>
-    </div>
+    </Pagination>
   )
 }

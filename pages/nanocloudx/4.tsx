@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={59}>
       <p>
         そしてなにより友達である。
         オタク友達と遊ぶときは、特に場所を決めなくても自然と秋葉原集合になる。
@@ -51,6 +52,6 @@ export default function Page() {
         多分引越しても、結局週末になったら遊びに来るとは思うんだけどね。
       </p>
       <h2 style={{textAlign: 'right'}}>有明編につづく・・・</h2>
-    </div>
+    </Pagination>
   )
 }

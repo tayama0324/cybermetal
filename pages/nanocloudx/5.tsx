@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={60}>
       <Title
         title={'有明に住んでみた'}
         description={'人生って難しい'}
@@ -48,6 +49,6 @@ export default function Page() {
       <p>
         すぐ近くに首都高速の出入口があるので、もし車を所有している方なら利便性は格段に高くなる。日常でレインボーブリッジを走れるのはちょっと優雅な気分を味わえて良い。実は羽田空港まで10分ちょっとでいける稀有な場所でもあるので、航空業界の方や旅行好きには最高の立地である。
       </p>
-    </div>
+    </Pagination>
   )
 }

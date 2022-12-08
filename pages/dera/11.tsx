@@ -1,8 +1,9 @@
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={55}>
       <h2>エデンに住む資格</h2>
       <p>
         お前ら貧乏人どもにとってのエデンの話をしてきたわけだが、薄々感づいている奴もいると思う。誰でもエデンに住めるわけじゃねぇってことに。
@@ -54,6 +55,6 @@ export default function Page() {
       <p>
         最後に、こんなクソッタレな記事をこの素晴らしい合同誌に載せてくれたサークル主に深く感謝する。本当にありがとう。
       </p>
-    </div>
+    </Pagination>
   )
 }

@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={7}>
       <h2>終止の拍と継続の拍</h2>
       <p>
         五・七・五の五は表拍を伸ばし、七は裏拍を叩いて終わる形になることを見てきました。この特徴が聞き手にどのような印象を与えるのでしょうか。それを音楽の視点から考えていきましょう。
@@ -22,6 +23,6 @@ export default function Page() {
       <p>
         闇雲に進行感を出すのではなく、終止のブレーキをバランス良く挟んでいくことも重要です。このバランスをあえて崩した例としては YOASOBI の楽曲『夜に駆ける』[^4] があり、ここでは28個もの一六分音符が一息に連なります。この終止を極限まで先延ばししたフレーズは、歌詞と相まって緊張感・切迫感を醸し出しています。
       </p>
-    </div>
+    </Pagination>
   )
 }

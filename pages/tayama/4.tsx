@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={8}>
       <p>
         一方、エドワード・エルガーによる行進曲『威風堂々』[^5] のよく知られた第一番中間部は、四分のリズムで刻まれるベース音に進行を預けながら、主旋律は表拍による終止を多用していて、曲名にふさわしい堂々とした安定感を生んでいます。
       </p>
@@ -16,6 +17,6 @@ export default function Page() {
       <p>
         そうすると、五・七・五のリズムは終止・継続・終止の連なりと捉えることができます。この終止と進行のバランスの良い並びが俳句のリズムの心地よさである、と結論づけていいのではないでしょうか。
       </p>
-    </div>
+    </Pagination>
   )
 }

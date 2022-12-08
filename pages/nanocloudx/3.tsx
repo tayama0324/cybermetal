@@ -1,9 +1,10 @@
 import {Title} from '../../components/Title'
 import {Image} from '../../components/Image'
+import {Pagination} from '../../components/Pagination'
 
 export default function Page() {
   return (
-    <div>
+    <Pagination page={58}>
       <h2>秋葉原は俺の庭</h2>
       <p>
         さらに紆余曲折を経て、オタクカルチャーとプログラミングと映像が大好きだった私はニコニコ動画を作ってる会社に入社した。
@@ -64,6 +65,6 @@ export default function Page() {
         隔年に一度、神田祭という由緒正しき大祭があり、街の雰囲気が一変するのもなかなか面白い。
         もちろん元旦は神田明神で初詣をする。甘酒おいしい。
       </p>
-    </div>
+    </Pagination>
   )
 }
