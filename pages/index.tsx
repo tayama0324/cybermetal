@@ -96,8 +96,8 @@ export default function Page() {
       />
       <Mokuji
         page={74}
-        description={'編集後記'}
-        // 1page
+        description={'編集後記＆おまけ'}
+        // 2page
       />
     </Pagination>
   )
