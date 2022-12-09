@@ -1,0 +1,21 @@
+.main {
+  font-family: '游明朝',YuMincho, serif;
+  p, i {
+    font-size: 0.86rem;
+    text-align: justify;
+    margin-bottom: 0.3rem;
+  }
+  i {
+    font-style: normal;
+    display: inline-block;
+  }
+  p::before {
+    content: "　";
+  }
+  ruby {
+    > rt {
+      font-size: 60%;
+      text-align: center;
+    }
+  }
+}
