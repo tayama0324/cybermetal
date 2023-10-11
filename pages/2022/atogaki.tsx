@@ -28,17 +28,17 @@ export default function Page() {
       <div style={{marginTop: '1rem'}}>
         <h2>著者からひとこと</h2>
         <div>
-          <Atogaki author={'tayama0324'} image={'/tayama/author.jpg'} message={'ハイクを詠め'} />
-          <Atogaki author={'kinoppyd'} image={'/kinoppyd/author.jpeg'} message={'禁酒中なんで酒が飲みたいです'} />
-          <Atogaki author={'@kusano_k'} image={'/kusano/author.png'} message={'今年のふるさと納税の枠が残っている人は、金子眼鏡店の割引券をもらいましょう。'} />
-          <Atogaki author={'冬椿'} image={'/fuyutsubaki/author.png'} message={'今年読むべききらら作品「死神ドットコム」が月曜完結したらしいです'} />
-          <Atogaki author={'daichiro.eth'} image={'/daichiro/author.png'} message={'お金が一向に貯まりません'} />
-          <Atogaki author={'物入れ狂戦士'} image={'/pokeba/author.png'} message={'平穏無事に暮らしたいですね'} />
-          <Atogaki author={'おめが'} image={'/omega/author.png'} message={'無限の倉庫があれば買ってた'} />
-          <Atogaki author={'かえで@office_acer'} image={'/sekiyasu/author.jpeg'} message={'実家に引っ越して1年、縮小した部分はあるものの相変わらず活動の中心は東京です。'} />
-          <Atogaki author={'ちんぴらD'} image={'/dera/author.png'} message={'おれがいなけりゃこの本は今頃「サイバーメタルエリート」になってたぞ？おれに感謝しな'} />
-          <Atogaki author={'なのくろ'} image={'/nanocloudx/author.jpeg'} message={'来年は良い年になりますように...(切実)'} />
-          <Atogaki author={'ながいたん'} image={'/nagaitan/author.jpeg'} message={'コミケ初参戦です。よい記念になりました。'} />
+          <Atogaki author={'tayama0324'} image={'/2022/tayama/author.jpg'} message={'ハイクを詠め'} />
+          <Atogaki author={'kinoppyd'} image={'/2022/kinoppyd/author.jpeg'} message={'禁酒中なんで酒が飲みたいです'} />
+          <Atogaki author={'@kusano_k'} image={'/2022/kusano/author.png'} message={'今年のふるさと納税の枠が残っている人は、金子眼鏡店の割引券をもらいましょう。'} />
+          <Atogaki author={'冬椿'} image={'/2022/fuyutsubaki/author.png'} message={'今年読むべききらら作品「死神ドットコム」が月曜完結したらしいです'} />
+          <Atogaki author={'daichiro.eth'} image={'/2022/daichiro/author.png'} message={'お金が一向に貯まりません'} />
+          <Atogaki author={'物入れ狂戦士'} image={'/2022/pokeba/author.png'} message={'平穏無事に暮らしたいですね'} />
+          <Atogaki author={'おめが'} image={'/2022/omega/author.png'} message={'無限の倉庫があれば買ってた'} />
+          <Atogaki author={'かえで@office_acer'} image={'/2022/sekiyasu/author.jpeg'} message={'実家に引っ越して1年、縮小した部分はあるものの相変わらず活動の中心は東京です。'} />
+          <Atogaki author={'ちんぴらD'} image={'/2022/dera/author.png'} message={'おれがいなけりゃこの本は今頃「サイバーメタルエリート」になってたぞ？おれに感謝しな'} />
+          <Atogaki author={'なのくろ'} image={'/2022/nanocloudx/author.jpeg'} message={'来年は良い年になりますように...(切実)'} />
+          <Atogaki author={'ながいたん'} image={'/2022/nagaitan/author.jpeg'} message={'コミケ初参戦です。よい記念になりました。'} />
         </div>
       </div>
     </Pagination>

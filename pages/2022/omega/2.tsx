@@ -13,8 +13,8 @@ export default function Page() {
       </p>
       <h2>フラットランドBMX</h2>
       <div style={{display: 'flex'}}>
-        <Image href={'/omega/3.png'} />
-        <Image href={'/omega/4.png'} />
+        <Image href={'/2022/omega/3.png'} />
+        <Image href={'/2022/omega/4.png'} />
       </div>
       <p>
         小さな自転車を行うBMX競技の中でもパークとレーシングは去年の東京オリンピックで話題になったので、そこで知った人もいるんじゃないかな。

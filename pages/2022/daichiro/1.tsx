@@ -8,7 +8,7 @@ export default function Page() {
         title={'NFTで億万長者になる方法'}
         description={'巷で話題のNFTを理解して一攫千金を狙います'}
         author={'daichiro.eth'}
-        image={'/daichiro/author.png'}
+        image={'/2022/daichiro/author.png'}
       />
       <strong>
         THIS IS NOT FINANCIAL ADVICE, THIS IS NOT LEGAL ADVICE.

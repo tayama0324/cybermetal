@@ -28,7 +28,7 @@ export default function Page() {
       <p>
         例えばおれは筋トレが趣味だから↓のような部屋を1つ作ったな。都内に住んでいた頃ならまずこんなに物を置くことはできなかった、最高の気分だよ。お陰でジム代も浮いたしヒョロガリだったおれの体もマッチョになれた。
       </p>
-      <Image href={'/dera/house1.jpg'} description={'筋トレ部屋'} widthPercentage={60} />
+      <Image href={'/2022/dera/house1.jpg'} description={'筋トレ部屋'} widthPercentage={60} />
       <p>
         どうだ、田舎の一軒家は最高だろ？
       </p>

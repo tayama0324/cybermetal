@@ -9,7 +9,7 @@ export default function Page() {
         title={'田舎に引越したので自動車を買った'}
         description={'田舎暮らしにクルマは必需品でしょ？持っていなかったら人権ないよね？'}
         author={'かえで@office_acer'}
-        image={'/sekiyasu/author.jpeg'}
+        image={'/2022/sekiyasu/author.jpeg'}
         twitter={'@office_acer'}
       />
       <p>

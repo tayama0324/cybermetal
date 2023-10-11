@@ -9,9 +9,9 @@ export default function Page() {
         title={'東京に住む貧乏人どもへの提言'}
         description={'東京とかいう金持ちのための街に住む貧乏人どもへの有益なアドバイス'}
         author={'ちんぴらD'}
-        image={'/dera/author.png'}
+        image={'/2022/dera/author.png'}
       />
-      <Image href={'/dera/tobirae.png'} widthPercentage={40} />
+      <Image href={'/2022/dera/tobirae.png'} widthPercentage={40} />
       <h2>はじめに</h2>
       <p>
         おれは「ちんぴらD」という者だ。特にサークル活動やSNS活動はしていない。ここに参加させてもらった理由なんだけど、「サイバーメタルチンピラ」とかいう中々イカしたタイトルのくせしてどいつもこいつもお上品で小難しいエリートみてぇなことしか書いてねぇことにイラついたからだ。つまり、この合同誌をよりクソ下品な作品にするために参加することにしたんだ、よろしくな。

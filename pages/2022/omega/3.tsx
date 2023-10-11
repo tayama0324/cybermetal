@@ -10,8 +10,8 @@ export default function Page() {
       </p>
       <h2>サイクルサッカー</h2>
       <div style={{display: 'flex'}}>
-        <Image href={'/omega/5.png'} />
-        <Image href={'/omega/6.png'} />
+        <Image href={'/2022/omega/5.png'} />
+        <Image href={'/2022/omega/6.png'} />
       </div>
       <p>
         えーと、もうこれは説明しなくてもいいんじゃないかな。名前の通り、自転車でサッカーをやる、以上だ。えーと、つまり動画を見てほしい。

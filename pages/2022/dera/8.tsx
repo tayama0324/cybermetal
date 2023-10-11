@@ -36,7 +36,7 @@ export default function Page() {
       <p>
         その体力すらねぇクソ雑魚どもはジムで体作ってから出直すか、心もとねぇ身銭を切って自動車を買うことだな。
       </p>
-      <Image href={'/dera/chari.jpg'} description={'おれのロードバイク'} widthPercentage={80} />
+      <Image href={'/2022/dera/chari.jpg'} description={'おれのロードバイク'} widthPercentage={80} />
     </Pagination>
   )
 }

@@ -9,7 +9,7 @@ export default function Page() {
         title={'値段差10倍のメガネを買った話'}
         description={'果たして値段分の差はあるのだろうか'}
         author={'@kusano_k'}
-        image={'/kusano/author.png'}
+        image={'/2022/kusano/author.png'}
         twitter={'@kusano_k'}
       />
       <p>

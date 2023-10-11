@@ -9,11 +9,11 @@ yarn install
 yarn dev
 ```
 
-起動したら `http://localhost:3000/{authorName}/{pageCount}` で表示できます
+起動したら `http://localhost:3000/{year}` で表示できます
 
 ## How to edit
 
-- 他のページを参考に `/pages/{authorName}/{pageCount}.tsx` を作成してください
+- 他のページを参考に `/pages/{year}/{authorName}/{pageCount}.tsx` を作成してください
 - 基本的には後述するタグと共通コンポーネントだけ使ってください
 - 必要であれば自由にカスタマイズしても構いません
 - B5サイズでの作成を想定しています
@@ -53,7 +53,7 @@ import {Title} from '../../components/Title'
 ### Image
 
 - 画像を埋め込みたいときに使ってください
-- 画像ファイルは `/public/{authorName}/` に置いてください
+- 画像ファイルは `/public/{year}/{authorName}/` に置いてください
 - CSSでグレースケール化されます
 - description は省略可能です
 

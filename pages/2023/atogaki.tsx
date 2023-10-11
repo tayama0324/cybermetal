@@ -14,7 +14,7 @@ export default function Page() {
       <div style={{marginTop: '1rem'}}>
         <h2>著者からひとこと</h2>
         <div>
-          <Atogaki author={'なのくろ'} image={'/nanocloudx/author.jpeg'} message={'ダミーですダミーですダミーですダミーです'} />
+          <Atogaki author={'なのくろ'} image={'/2022/nanocloudx/author.jpeg'} message={'ダミーですダミーですダミーですダミーです'} />
         </div>
       </div>
     </Pagination>

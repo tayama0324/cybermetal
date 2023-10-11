@@ -8,7 +8,7 @@ export default function Page() {
         title={'サイバーメタルチンピラとは何か'}
         description={'AIに聞いてみた'}
         author={'OpenAI ChatGPT'}
-        image={'/chatgpt.png'}
+        image={'/2022/chatgpt.png'}
         website={'https://chat.openai.com'}
       />
       <small>

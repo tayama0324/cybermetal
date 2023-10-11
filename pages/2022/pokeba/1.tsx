@@ -8,7 +8,7 @@ export default function Page() {
         title={'スリーカウント転職ルール'}
         description={'3回灯がともったらプレインズウォークする'}
         author={'物入れ狂戦士'}
-        image={'/pokeba/author.png'}
+        image={'/2022/pokeba/author.png'}
       />
       <p>
         2022年現在、ソフトウェアエンジニア（プログラマー）は人材流動性の高い職業と言われています。

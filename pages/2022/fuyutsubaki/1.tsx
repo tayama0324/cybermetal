@@ -8,7 +8,7 @@ export default function Page() {
         title={'まだ間に合うのできらファン2部を8章まで読んで下さい'}
         description={'きららファンタジア2部やれ。まだまにあう。2020年代きららの片鱗を感じろ'}
         author={'冬椿'}
-        image={'/fuyutsubaki/author.png'}
+        image={'/2022/fuyutsubaki/author.png'}
         twitter={'@fuyutsubaki'}
       />
       <p>

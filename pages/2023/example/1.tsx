@@ -9,11 +9,11 @@ export default function Page() {
         title={'テスト記事'}
         description={'説明文だよ'}
         author={'著者の名前'}
-        image={'/nanocloudx/author.jpeg'}
+        image={'/2022/nanocloudx/author.jpeg'}
         twitter={'@example'}
         website={'https://example.com'}
       />
-      <Image href={'/nanocloudx/1.jpg'} />
+      <Image href={'/2022/nanocloudx/1.jpg'} />
       <h2>てすとだよ</h2>
       <p>
         あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。

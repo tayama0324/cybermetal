@@ -9,7 +9,7 @@ export default function Page() {
         title={'有明に住んでみた'}
         description={'人生って難しい'}
         author={'なのくろ'}
-        image={'/nanocloudx/author.jpeg'}
+        image={'/2022/nanocloudx/author.jpeg'}
         twitter={'@nanocloudx'}
         website={'https://wwww.dev'}
       />

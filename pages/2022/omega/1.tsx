@@ -9,7 +9,7 @@ export default function Page() {
         title={'速くない自転車競技'}
         description={'へんてこ自転車に乗りたい欲がたかまるたかまる'}
         author={'おめが'}
-        image={'/omega/author.png'}
+        image={'/2022/omega/author.png'}
         twitter={'@omegamega'}
         website={'https://o-mega.sakura.ne.jp/'}
       />
@@ -19,8 +19,8 @@ export default function Page() {
       </p>
       <h2>バイクトライアル(BTR)</h2>
       <div style={{display: 'flex'}}>
-        <Image href={'/omega/1.png'} />
-        <Image href={'/omega/2.png'} />
+        <Image href={'/2022/omega/1.png'} />
+        <Image href={'/2022/omega/2.png'} />
       </div>
       <p>
         自転車で山を登る、通称ヒルクライムをすると、「足付きをしたか、足付きせずに登りきれたか」というのが話のネタになったりする。やはり自転車乗りたるもの、どんな障害が前に現れても足をついて休んだりせず、ずんずんと走りそのままゴールできるヤツは偉い、わかる。

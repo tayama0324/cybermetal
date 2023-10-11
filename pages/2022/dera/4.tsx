@@ -35,7 +35,7 @@ export default function Page() {
       <p>
         東京でこれをやったら通報されるし下手すりゃあ前科者になっちまうな。やっぱ田舎は土地も心も広いんだなってそう思うよ。
       </p>
-      <Image href={'/dera/house2.jpg'} description={'家の庭'} widthPercentage={50} />
+      <Image href={'/2022/dera/house2.jpg'} description={'家の庭'} widthPercentage={50} />
     </Pagination>
   )
 }

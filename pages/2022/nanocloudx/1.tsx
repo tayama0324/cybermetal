@@ -9,14 +9,14 @@ export default function Page() {
         title={'秋葉原に10年ぐらい住んでみた'}
         description={'僕の思い出'}
         author={'なのくろ'}
-        image={'/nanocloudx/author.jpeg'}
+        image={'/2022/nanocloudx/author.jpeg'}
         twitter={'@nanocloudx'}
         website={'https://wwww.dev'}
       />
       <small>
         *この記事は2021年春に著者のブログで書いたものです。想定外にバズったので誌面化しました。<br />
       </small>
-      <Image href={'/nanocloudx/1.jpg'} />
+      <Image href={'/2022/nanocloudx/1.jpg'} />
       <h2>初めての秋葉原</h2>
       <p>
         私が初めて秋葉原に来たのは10歳の時。はっきりと覚えている。
