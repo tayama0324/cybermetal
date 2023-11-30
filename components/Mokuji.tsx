@@ -6,6 +6,7 @@ type Props = {
   description: string
   author?: string
   page: number
+  break?: boolean
 }
 
 export const Mokuji: React.FC<Props> = (props) => {
@@ -14,8 +15,9 @@ export const Mokuji: React.FC<Props> = (props) => {
       <p className={s.page}>{props.page}</p>
       <div>
         {props.title && (
-          <h1 className={s.title}>
+          <h1 className={s.title} style={props.break ? {lineHeight: 1} : undefined}>
             {props.title}
+            {props.break && <br />}
             <span className={s.author}>{props.author}</span>
           </h1>
         )}
