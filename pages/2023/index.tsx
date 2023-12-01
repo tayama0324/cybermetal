@@ -42,6 +42,8 @@ export default function Page() {
         <li>
           分かりやすくもない Android 端末購入ガイド（happo31）
           <Link href={'/2023/happo31/1'}>１</Link>
+          <Link href={'/2023/happo31/2'}>２</Link>
+          <Link href={'/2023/happo31/3'}>３</Link>
         </li>
         <li>
           ルービックキューブの話を何か書きたい（kusano_k）
@@ -56,8 +58,10 @@ export default function Page() {
           <Link href={'/2023/nanocloudx/1'}>１</Link>
         </li>
         <li>
-          子どもがかわいいだけの何か（ながいたん）
+          猫と赤子（ながいたん）
           <Link href={'/2023/nagaitan/1'}>１</Link>
+          <Link href={'/2023/nagaitan/2'}>２</Link>
+          <Link href={'/2023/nagaitan/3'}>３</Link>
         </li>
         <li>
           街角に佇む謎のアニメ看板マッサージ屋の真実に迫る（shodai）
