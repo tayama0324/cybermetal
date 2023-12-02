@@ -44,6 +44,10 @@ export default function Page() {
           <Link href={'/2023/happo31/1'}>１</Link>
           <Link href={'/2023/happo31/2'}>２</Link>
           <Link href={'/2023/happo31/3'}>３</Link>
+          <Link href={'/2023/happo31/4'}>４</Link>
+          <Link href={'/2023/happo31/5'}>５</Link>
+          <Link href={'/2023/happo31/6'}>６</Link>
+          <Link href={'/2023/happo31/7'}>７</Link>
         </li>
         <li>
           ルービックキューブの話を何か書きたい（kusano_k）
