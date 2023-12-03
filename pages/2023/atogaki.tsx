@@ -17,15 +17,15 @@ export default function Page() {
           <Atogaki author={'だいちろ'} image={'/2023/author/daichiro.png'} message={'ダミーですダミーですダミーですダミーです'} />
           <Atogaki author={'kinoppyd'} image={'/2023/author/kinoppyd.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
           <Atogaki author={'ryudo'} image={'/2023/author/ryudo.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
-          <Atogaki author={'きすちぃ'} image={'/2023/author/quisty.jpg'} message={'サイバーメタルチンピラ体験、とても楽しかったです！'} />
+          <Atogaki author={'きすちぃ'} image={'/2023/author/quisty.png'} message={'サイバーメタルチンピラ体験、とても楽しかったです！'} />
           <Atogaki author={'kuri'} image={'/2023/author/kuri.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
           <Atogaki author={'冬椿'} image={'/2023/author/fuyutsubaki.png'} message={'ダミーですダミーですダミーですダミーです'} />
-          <Atogaki author={'happo31'} image={'/2023/author/happo31.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
+          <Atogaki author={'happo31'} image={'/2023/author/happo31.png'} message={'ダミーですダミーですダミーですダミーです'} />
           <Atogaki author={'kusano_k'} image={'/2023/author/kusano.png'} message={'ダミーですダミーですダミーですダミーです'} />
           <Atogaki author={'tayama0324'} image={'/2023/author/tayama.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
           <Atogaki author={'なのくろ'} image={'/2023/author/nanocloudx.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
           <Atogaki author={'ながいたん'} image={'/2023/author/nagaitan.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
-          <Atogaki author={'匿名チンピラ（埼玉県在住）'} image={'/2023/author/shodai.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
+          <Atogaki author={'匿名チンピラ（埼玉県在住）'} image={'/2023/author/shodai.png'} message={'ダミーですダミーですダミーですダミーです'} />
         </div>
       </div>
     </Pagination>
