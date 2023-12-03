@@ -57,6 +57,10 @@ export default function Page() {
         <li>
           ルービックキューブの話を何か書きたい（kusano_k）<br />
           <Link href={'/2023/kusano/1'}>１</Link>
+          <Link href={'/2023/kusano/2'}>２</Link>
+          <Link href={'/2023/kusano/3'}>３</Link>
+          <Link href={'/2023/kusano/4'}>４</Link>
+          <Link href={'/2023/kusano/5'}>５</Link>
         </li>
         <li>
           目がバグった話（tayama0324）<br />
