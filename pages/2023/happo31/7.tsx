@@ -17,12 +17,13 @@ export default function Page() {
       <p>あとはまあ知り合いの何人か（ITリテラシーのある人も含めて）が「iPhoneから乗り換えたいんだけどよくわからない」みたいなことを言っていたので、僕自身がそういうときに何を見て選ぶのがいいかを言語化しておきたかったというのもあります。彼らがこの記事を見つけたらドン引きするだろうけど。</p>
       <p>というわけでまえがきの通りあまり実用的な内容ではありませんでしたが、ありがたくも飛ばさずに読んで頂いたあなたに少しでも何かが残れば幸いです。</p>
       <hr />
-      <ul>
-        <li>[1,2] https://www.android.com/intl/ja_jp/phones/help-me-choose/</li>
-        <li>[3] DSDS (デュアル SIM デュアルスタンバイ) と呼ばれる機能などのこと。最近はもっと高性能なもの(DSDV, DSDA) もある</li>
-        <li>[4] https://www.iijmio.jp/gigaplan/esim/phone/</li>
-        <li>[5] https://happo31sprogblog.hatenablog.jp/realtime_preview#f-0a57e21c</li>
-      </ul>
+      <ol>
+        <li>https://www.android.com/intl/ja_jp/phones/help-me-choose/</li>
+        <li>https://www.android.com/intl/ja_jp/phones/help-me-choose/</li>
+        <li>DSDS (デュアル SIM デュアルスタンバイ) と呼ばれる機能などのこと。最近はもっと高性能なもの(DSDV, DSDA) もある</li>
+        <li>https://www.iijmio.jp/gigaplan/esim/phone/</li>
+        <li>https://happo31sprogblog.hatenablog.jp/realtime_preview#f-0a57e21c</li>
+      </ol>
     </Pagination>
   )
 }

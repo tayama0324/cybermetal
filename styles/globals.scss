@@ -59,8 +59,14 @@ small {
   margin-bottom: 0.4rem;
 }
 ul {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   list-style-type: disc;
+  padding-left: 1rem;
+  margin-bottom: 0.4rem;
+}
+ol {
+  font-size: 0.75rem;
+  list-style-type: decimal;
   padding-left: 1rem;
   margin-bottom: 0.4rem;
 }

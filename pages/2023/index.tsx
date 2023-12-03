@@ -26,6 +26,11 @@ export default function Page() {
         <li>
           10万円で始める同人誌即売会の開き方（ryudo）
           <Link href={'/2023/ryudo/1'}>１</Link>
+          <Link href={'/2023/ryudo/2'}>２</Link>
+          <Link href={'/2023/ryudo/3'}>３</Link>
+          <Link href={'/2023/ryudo/4'}>４</Link>
+          <Link href={'/2023/ryudo/5'}>５</Link>
+          <Link href={'/2023/ryudo/6'}>６</Link>
         </li>
         <li>
           コスプレ（きすちぃ）

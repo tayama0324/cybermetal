@@ -9,7 +9,7 @@ export default function Page() {
         title={'タイトルタイトル'}
         description={'一行概要はここに記載されますのだ！'}
         author={'きすちぃ'}
-        image={'/2023/author/quisty.jpg'}
+        image={'/2023/author/quisty.png'}
         // twitter={'@nanocloudx'}
         // website={'https://wwww.dev'}
       />

@@ -8,7 +8,7 @@ export default function Page() {
         title={'分かりやすくもないAndroid端末購入ガイド'}
         description={'に見せかけたベンチマーク主義へのアンチテーゼ'}
         author={'happo31'}
-        image={'/2023/author/happo31.jpg'}
+        image={'/2023/author/happo31.png'}
         misskey={'@happo31'}
       />
       <p><strong>※以下の文章はすべて独自研究に基づくものです。</strong></p>

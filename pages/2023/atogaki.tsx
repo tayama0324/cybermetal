@@ -17,7 +17,7 @@ export default function Page() {
           <Atogaki author={'だいちろ'} image={'/2023/author/daichiro.png'} message={'ダミーですダミーですダミーですダミーです'} />
           <Atogaki author={'kinoppyd'} image={'/2023/author/kinoppyd.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
           <Atogaki author={'ryudo'} image={'/2023/author/ryudo.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
-          <Atogaki author={'きすちぃ'} image={'/2023/author/quisty.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
+          <Atogaki author={'きすちぃ'} image={'/2023/author/quisty.jpg'} message={'サイバーメタルチンピラ体験、とても楽しかったです！'} />
           <Atogaki author={'kuri'} image={'/2023/author/kuri.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
           <Atogaki author={'冬椿'} image={'/2023/author/fuyutsubaki.png'} message={'ダミーですダミーですダミーですダミーです'} />
           <Atogaki author={'happo31'} image={'/2023/author/happo31.jpg'} message={'ダミーですダミーですダミーですダミーです'} />
