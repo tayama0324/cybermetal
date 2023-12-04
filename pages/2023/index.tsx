@@ -22,6 +22,11 @@ export default function Page() {
         <li>
           チーズ作るよ（kinoppyd）<br />
           <Link href={'/2023/kinoppyd/1'}>１</Link>
+          <Link href={'/2023/kinoppyd/2'}>２</Link>
+          <Link href={'/2023/kinoppyd/3'}>３</Link>
+          <Link href={'/2023/kinoppyd/4'}>４</Link>
+          <Link href={'/2023/kinoppyd/5'}>５</Link>
+          <Link href={'/2023/kinoppyd/6'}>６</Link>
         </li>
         <li>
           ChatGPT DALL-E3で遊ぶ（kuri）<br />
