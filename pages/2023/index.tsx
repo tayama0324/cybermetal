@@ -72,7 +72,7 @@ export default function Page() {
           <Link href={'/2023/shodai/1'}>１</Link>
         </li>
         <li>
-          目がバグった話（tayama0324）<br />
+          筆者の異常な視界　またはいかにして私は心配するのをやめてプリズムを愛するようになったか（tayama0324）<br />
           <Link href={'/2023/tayama/1'}>１</Link>
           <Link href={'/2023/tayama/2'}>２</Link>
           <Link href={'/2023/tayama/3'}>３</Link>
