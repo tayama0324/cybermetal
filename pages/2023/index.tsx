@@ -29,14 +29,6 @@ export default function Page() {
           <Link href={'/2023/kinoppyd/6'}>６</Link>
         </li>
         <li>
-          ChatGPT DALL-E3で遊ぶ（kuri）<br />
-          <Link href={'/2023/kuri/1'}>１</Link>
-        </li>
-        <li>
-          skebで名画を出す（冬椿）<br />
-          <Link href={'/2023/fuyutsubaki/1'}>１</Link>
-        </li>
-        <li>
           10万円で始める同人誌即売会の開き方（ryudo）<br />
           <Link href={'/2023/ryudo/1'}>１</Link>
           <Link href={'/2023/ryudo/2'}>２</Link>
@@ -46,8 +38,22 @@ export default function Page() {
           <Link href={'/2023/ryudo/6'}>６</Link>
         </li>
         <li>
-          島風くんコスプレをイベントで楽しむために知っておくべき事（きすちぃ）<br />
+          島風くんコスプレを楽しむために知っておくべき事（きすちぃ）<br />
           <Link href={'/2023/quisty/1'}>１</Link>
+        </li>
+        <li>
+          身の回りのものをAIで美少女化したら楽しかった件（kuri）<br />
+          <Link href={'/2023/kuri/1'}>１</Link>
+          <Link href={'/2023/kuri/2'}>２</Link>
+          <Link href={'/2023/kuri/3'}>３</Link>
+          <Link href={'/2023/kuri/4'}>４</Link>
+          <Link href={'/2023/kuri/5'}>５</Link>
+          <Link href={'/2023/kuri/6'}>６</Link>
+          <Link href={'/2023/kuri/7'}>７</Link>
+        </li>
+        <li>
+          skebで名画を出す（冬椿）<br />
+          <Link href={'/2023/fuyutsubaki/1'}>１</Link>
         </li>
         <li>
           分かりやすくもない Android 端末購入ガイド（happo31）<br />
@@ -60,7 +66,7 @@ export default function Page() {
           <Link href={'/2023/happo31/7'}>７</Link>
         </li>
         <li>
-          ルービックキューブの話を何か書きたい（kusano_k）<br />
+          ルービックキューブの話（kusano_k）<br />
           <Link href={'/2023/kusano/1'}>１</Link>
           <Link href={'/2023/kusano/2'}>２</Link>
           <Link href={'/2023/kusano/3'}>３</Link>
@@ -68,11 +74,11 @@ export default function Page() {
           <Link href={'/2023/kusano/5'}>５</Link>
         </li>
         <li>
-          街角に佇む謎のアニメ看板マッサージ屋の真実に迫る（shodai）<br />
+          街角に佇む謎のアニメ看板マッサージ店の真実に迫る（shodai）<br />
           <Link href={'/2023/shodai/1'}>１</Link>
         </li>
         <li>
-          筆者の異常な視界　またはいかにして私は心配するのをやめてプリズムを愛するようになったか（tayama0324）<br />
+          筆者の異常な視界（tayama0324）<br />
           <Link href={'/2023/tayama/1'}>１</Link>
           <Link href={'/2023/tayama/2'}>２</Link>
           <Link href={'/2023/tayama/3'}>３</Link>

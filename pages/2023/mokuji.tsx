@@ -13,14 +13,14 @@ export default function Page() {
       <Mokuji
         page={999}
         title={'サイバーメタルチンピラ２です。'}
-        description={'４こま'}
+        description={'わたしがサイバーメタルチンピラでした。（衝撃の事実）'}
         author={'だいちろ'}
         // 1page
       />
       <Mokuji
         page={999}
         title={'チーズ作るよ'}
-        description={'作る'}
+        description={'チーズを作りますがマジでコスパは悪いです'}
         author={'kinoppyd'}
         // 1page
       />
@@ -33,15 +33,15 @@ export default function Page() {
       />
       <Mokuji
         page={999}
-        title={'何か'}
-        description={'何か'}
+        title={'島風くんコスプレを楽しむために知っておくべき事'}
+        description={'日本のコスプレイベントの「ルール」とかを調べたやつを吐き出します'}
         author={'きすちぃ'}
         // 1page
       />
       <Mokuji
         page={999}
-        title={'ChatGPT DALL-E3で遊ぶ'}
-        description={'巷で有名な企業やサービスなどをAI画像化したクイズを作ります'}
+        title={'身の回りのものをAIで美少女化したら楽しかった件'}
+        description={'AIで遊んでると時間解ける、マジで。'}
         author={'kuri'}
         // 1page
       />
@@ -61,9 +61,17 @@ export default function Page() {
       />
       <Mokuji
         page={999}
-        title={'ルービックキューブの話を何か書きたい'}
-        description={'ルービックキューブの話を何か書きたい'}
+        title={'ルービックキューブの話'}
+        description={'今年1年間ハマっていた。'}
         author={'kusano_k'}
+        // 1page
+      />
+      <Mokuji
+        page={999}
+        title={'街角に佇む謎のアニメ看板マッサージ店の真実に迫る'}
+        description={'アニメイラスト看板のマッサージ店は異世界ダンジョンへの入口だった！？'}
+        author={'匿名チンピラ（埼玉県在住）'}
+        break
         // 1page
       />
       <Mokuji
@@ -82,17 +90,9 @@ export default function Page() {
       />
       <Mokuji
         page={999}
-        title={'子どもがかわいいだけの何か'}
-        description={'子どもがかわいいというだけの何かを書きます'}
+        title={'猫と赤子'}
+        description={'2月に子どもが生まれた話です'}
         author={'ながいたん'}
-        // 1page
-      />
-      <Mokuji
-        page={999}
-        title={'街角に佇む謎のアニメ看板マッサージ屋の真実に迫る'}
-        description={'～都心に潜む異世界への入り口～'}
-        author={'匿名チンピラ（埼玉県在住）'}
-        break
         // 1page
       />
       <Mokuji
