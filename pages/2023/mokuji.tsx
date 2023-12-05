@@ -68,8 +68,8 @@ export default function Page() {
       />
       <Mokuji
         page={999}
-        title={'筆者の異常な視界　またはいかにして私は心配するのをやめてプリズムを愛するようになったか'}
-        description={'複視の診療記録です'}
+        title={'筆者の異常な視界'}
+        description={'またはいかにして私は心配するのをやめてプリズムを愛するようになったか'}
         author={'tayama0324'}
         // 1page
       />

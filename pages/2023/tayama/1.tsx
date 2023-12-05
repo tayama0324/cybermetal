@@ -6,8 +6,8 @@ export default function Page() {
   return (
     <Pagination page={999}>
       <Title
-        title={'筆者の異常な視界　またはいかにして私は心配するのをやめてプリズムを愛するようになったか'}
-        description={'複視の診療記録です'}
+        title={'筆者の異常な視界'}
+        description={'またはいかにして私は心配するのをやめてプリズムを愛するようになったか'}
         author={'tayama0324'}
         image={'/2023/author/tayama.jpg'}
         twitter={'@tayama0324'}
