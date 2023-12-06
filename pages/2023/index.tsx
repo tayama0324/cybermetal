@@ -54,6 +54,9 @@ export default function Page() {
         <li>
           skebで名画を出す（冬椿）<br />
           <Link href={'/2023/fuyutsubaki/1'}>１</Link>
+          <Link href={'/2023/fuyutsubaki/2'}>２</Link>
+          <Link href={'/2023/fuyutsubaki/3'}>３</Link>
+          <Link href={'/2023/fuyutsubaki/4'}>４</Link>
         </li>
         <li>
           分かりやすくもない Android 端末購入ガイド（happo31）<br />
