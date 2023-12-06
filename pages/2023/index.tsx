@@ -76,6 +76,10 @@ export default function Page() {
         <li>
           街角に佇む謎のアニメ看板マッサージ店の真実に迫る（shodai）<br />
           <Link href={'/2023/shodai/1'}>１</Link>
+          <Link href={'/2023/shodai/2'}>２</Link>
+          <Link href={'/2023/shodai/3'}>３</Link>
+          <Link href={'/2023/shodai/4'}>４</Link>
+          <Link href={'/2023/shodai/5'}>５</Link>
         </li>
         <li>
           筆者の異常な視界（tayama0324）<br />
